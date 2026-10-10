@@ -1,9 +1,9 @@
 {
   "status": "PASS",
   "classification": "exact_symbolic_smooth_part_certificate_not_a_benchmark",
-  "generated_at_utc": "2026-10-10T19:21:34.355456+00:00",
-  "python": "3.13.13",
-  "platform": "Windows-10-10.0.19045-SP0",
+  "generated_at_utc": "2026-10-10T19:01:47.793369+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
   "input": {
     "P": "2^136279841-1",
     "exponent": 136279841,
@@ -89,12 +89,12 @@
     "conservative_strict_upper_bound": "a_star(I) < 2.603697e-24 * P"
   },
   "timing_seconds": {
-    "finite_reference_check": 0.0005737000028602779,
-    "basis": 0.018200699996668845,
-    "symbolic_projection": 0.10352550001698546,
-    "row_certificates_and_independent_modular_checks": 0.017486199998529628,
-    "bounds_and_previous_comparison": 0.002244999981485307,
-    "total_before_serialization": 0.14203109999652952,
+    "finite_reference_check": 0.0010758540011011064,
+    "basis": 0.03247378399828449,
+    "symbolic_projection": 0.1492552630006685,
+    "row_certificates_and_independent_modular_checks": 0.024474558005749714,
+    "bounds_and_previous_comparison": 0.0019398589938646182,
+    "total_before_serialization": 0.20921931799966842,
     "interpretation": "single diagnostic run; not a paired speed comparison"
   },
   "rows": [

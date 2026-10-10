@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "generated_at_utc": "2026-10-10T19:21:32.137826+00:00",
-  "python": "3.13.13",
-  "platform": "Windows-10-10.0.19045-SP0",
+  "generated_at_utc": "2026-10-10T19:01:43.075701+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
   "classification": "exact bounded symbolic coverage experiment; not a speed comparison and not a new prime discovery",
   "input": {
     "P": "2^136279841-1",
@@ -4781,10 +4781,10 @@
     "meaning": "The same first-15 composite certificate applies to exponents congruent to this residue, for sufficiently large exponents."
   },
   "timing_seconds": {
-    "small_sieve": 0.017066100001102313,
-    "first_window_projection": 0.016862799995578825,
-    "extended_window_projection": 0.10546339998836629,
-    "total_including_assertions": 0.2283125999965705,
+    "small_sieve": 0.19919115799712017,
+    "first_window_projection": 0.03501480299746618,
+    "extended_window_projection": 0.22244837100151926,
+    "total_including_assertions": 0.4814555269986158,
     "note": "single diagnostic run, not paired benchmarking"
   },
   "limitations": [

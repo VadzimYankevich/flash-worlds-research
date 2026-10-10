@@ -18,7 +18,7 @@
     }
   },
   "record_rerun": {
-    "output": "C:\\Users\\mail\\.codex\\.chatgpt-projects\\g-p-6aba6c944c2c81919033451ce4fadb54\\flash_worlds_research_2026-10-10\\data\\record_rerun.json",
+    "output": "/workspace/scratch/20c2aa8b3d5e/flash_worlds_research_2026-10-10/data/record_rerun.json",
     "verification": {
       "status": "PASS",
       "small_primes_checked": 78497,

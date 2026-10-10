@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generated_at_utc": "2026-10-10T19:21:33.725040+00:00",
+  "generated_at_utc": "2026-10-10T19:01:46.641771+00:00",
   "classification": "Exact small-window pilot with complete ex-post factorization; not a speed benchmark.",
   "input": {
     "flash_B_upper_exclusive": 10000000,
@@ -238941,11 +238941,11 @@
     "rank_sieve_primes": 310015
   },
   "timing_seconds": {
-    "canonical_route": 0.0074807000055443496,
-    "rank_sieve": 0.15058529999805614,
-    "all_window_analysis_including_factorization": 0.1327889999956824,
-    "uncached_factorization_inside_window_analysis": 0.01759679921087809,
-    "total_computation_excluding_serialization": 0.29375169999548234
+    "canonical_route": 0.01935653900000034,
+    "rank_sieve": 0.28063651399861556,
+    "all_window_analysis_including_factorization": 0.2970606779999798,
+    "uncached_factorization_inside_window_analysis": 0.041701431742694695,
+    "total_computation_excluding_serialization": 0.6051350719935726
   },
   "limitations": [
     "a* is computed after complete factorization of every small pilot address; this cost and rank-sieve construction are included in pilot timings.",

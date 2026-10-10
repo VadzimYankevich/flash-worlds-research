@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generated_at_utc": "2026-10-10T19:21:34.124331+00:00",
+  "generated_at_utc": "2026-10-10T19:01:47.452438+00:00",
   "classification": "Constructed exact examples, not a statistical sample or speed benchmark.",
   "examples": [
     {
@@ -111,5 +111,5 @@
     "These examples do not provide an efficient search algorithm for residual addresses near the record prime.",
     "No-shadow-in-window and absorption-of-a-nonempty-shadow are separate states."
   ],
-  "total_computation_seconds_excluding_serialization": 0.00017900002421811223
+  "total_computation_seconds_excluding_serialization": 0.0029397539983619936
 }

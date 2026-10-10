@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "PASS",
   "classification": "Exact finite mathematical verification; neither a general proof nor a speed benchmark.",
-  "generated_at_utc": "2026-10-10T19:21:32.492074+00:00",
-  "python": "3.13.13",
+  "generated_at_utc": "2026-10-10T19:01:43.518014+00:00",
+  "python": "3.12.14",
   "source_sha256": "88621412bd2e735b0fa5774d9bddb27712433023ea46097736b9f9aa6f345692",
   "finite_worlds_and_cuts": {
     "status": "PASS",
@@ -111,5 +111,5 @@
     "exact_composite_certificate": "2047=23*89",
     "scope": "A single-base strong pseudoprime example; this does not show failure of every multi-base or bounded deterministic Miller-Rabin variant."
   },
-  "verification_wall_seconds": 0.5339105000020936
+  "verification_wall_seconds": 1.8288781119990745
 }

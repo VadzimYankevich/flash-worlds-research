@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
   "status": "PASS",
-  "generated_at_utc": "2026-10-10T19:21:31.623513+00:00",
+  "generated_at_utc": "2026-10-10T19:01:40.831477+00:00",
   "classification": "Package reproduction; stage times are not competing prime-search timings.",
   "stages": [
     {
       "name": "canonical evidence and record",
       "status": "PASS",
-      "wall_seconds": 0.7842472000047565,
+      "wall_seconds": 2.594940643000882,
       "output": "data/reproduction_rerun.json"
     },
     {
       "name": "mathematical identities",
       "status": "PASS",
-      "wall_seconds": 0.6286973999813199,
-      "stdout": "PASS: 250 finite worlds, 742 windows, 134 layers; 0.534 s\nC:\\Users\\mail\\.codex\\.chatgpt-projects\\g-p-6aba6c944c2c81919033451ce4fadb54\\flash_worlds_research_2026-10-10\\data\\mathematics_rerun.json"
+      "wall_seconds": 1.9330257080000592,
+      "stdout": "PASS: 250 finite worlds, 742 windows, 134 layers; 1.829 s\n/workspace/scratch/20c2aa8b3d5e/flash_worlds_research_2026-10-10/data/mathematics_rerun.json"
     },
     {
       "name": "independent teaching implementation",
       "status": "PASS",
-      "wall_seconds": 0.31771490001119673,
+      "wall_seconds": 0.5987653640040662,
       "output": "data/demo_selfcheck.json"
     },
     {
       "name": "ripple depth and residual layers",
       "status": "PASS",
-      "wall_seconds": 0.6434662999818102,
+      "wall_seconds": 1.2509913260000758,
       "outputs": [
         "data/ripple_depth_rerun.csv",
         "data/ripple_depth_rerun.json",
@@ -35,7 +35,7 @@
     {
       "name": "absorption and return of axis 1013",
       "status": "PASS",
-      "wall_seconds": 0.06872250000014901,
+      "wall_seconds": 0.11101557800429873,
       "outputs": [
         "data/ripple_1013_rerun.json"
       ]
@@ -43,7 +43,7 @@
     {
       "name": "record-window old-shadow absorption certificate",
       "status": "PASS",
-      "wall_seconds": 0.3097793000051752,
+      "wall_seconds": 0.5138083299971186,
       "outputs": [
         "data/ripple_smooth_certificate_rerun.csv",
         "data/ripple_smooth_certificate_rerun.json"
@@ -52,7 +52,7 @@
     {
       "name": "resource snapshot and scale estimates",
       "status": "PASS",
-      "wall_seconds": 0.12488330001360737,
+      "wall_seconds": 0.0874640609981725,
       "output": "data/resources_rerun.json"
     }
   ]

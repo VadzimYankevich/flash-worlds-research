@@ -1,37 +1,49 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-10T19:21:34.595062+00:00",
+  "generated_at_utc": "2026-10-10T19:01:48.082636+00:00",
   "observed_resources": {
-    "python_version": "3.13.13",
-    "platform": "Windows-10-10.0.19045-SP0",
+    "python_version": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
     "cpu": {
-      "model_names": [],
+      "model_names": [
+        "INTEL(R) XEON(R) PLATINUM 8573C"
+      ],
       "model_source": "/proc/cpuinfo",
-      "os_cpu_count": 12,
-      "affinity_cpu_ids": null,
-      "affinity_cpu_count": null
+      "os_cpu_count": 9,
+      "affinity_cpu_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "affinity_cpu_count": 9
     },
     "cgroup": {
-      "path": "\\sys\\fs\\cgroup",
-      "membership": null,
+      "path": "/sys/fs/cgroup",
+      "membership": "0::/",
       "raw": {
-        "cpu.max": null,
-        "memory.max": null,
-        "memory.current": null,
-        "memory.swap.max": null,
-        "memory.swap.current": null
+        "cpu.max": "800000 100000",
+        "memory.max": "8589934592",
+        "memory.current": "206716928",
+        "memory.swap.max": "max",
+        "memory.swap.current": "0"
       },
-      "cpu_quota_us": null,
-      "cpu_period_us": null,
-      "cpu_quota_equivalent_cpus": null,
-      "memory_limit_bytes": null,
-      "memory_current_bytes": null,
+      "cpu_quota_us": 800000,
+      "cpu_period_us": 100000,
+      "cpu_quota_equivalent_cpus": 8.0,
+      "memory_limit_bytes": 8589934592,
+      "memory_current_bytes": 206716928,
       "memory_swap_limit_bytes": null,
-      "memory_swap_current_bytes": null
+      "memory_swap_current_bytes": 0
     },
     "swap": {
-      "proc_swaps_rows": null,
-      "proc_meminfo_swap_total_kib": null
+      "proc_swaps_rows": [],
+      "proc_meminfo_swap_total_kib": 0
     },
     "gpu_device_exposure": {
       "paths": [],
