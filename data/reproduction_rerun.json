@@ -1,0 +1,32 @@
+{
+  "originals": {
+    "sources": "byte-for-byte match",
+    "benchmark": {
+      "status": "PASS",
+      "observations": 36,
+      "paired_rounds": 12,
+      "timing_note": "Historical timing arithmetic is checked; elapsed times are not remeasured without --benchmark."
+    },
+    "record": {
+      "status": "PASS",
+      "small_primes_checked": 78497,
+      "covered_positions": 1381,
+      "unresolved_positions": 119,
+      "closed_top_positions": 43,
+      "first_unknown": "3P-82",
+      "first_unknown_primality": "not established"
+    }
+  },
+  "record_rerun": {
+    "output": "C:\\Users\\mail\\.codex\\.chatgpt-projects\\g-p-6aba6c944c2c81919033451ce4fadb54\\flash_worlds_research_2026-10-10\\data\\record_rerun.json",
+    "verification": {
+      "status": "PASS",
+      "small_primes_checked": 78497,
+      "covered_positions": 1381,
+      "unresolved_positions": 119,
+      "closed_top_positions": 43,
+      "first_unknown": "3P-82",
+      "first_unknown_primality": "not established"
+    }
+  }
+}

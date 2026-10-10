@@ -1,0 +1,4 @@
+mode,rounds,median_seconds
+candidate_prime,12,0.29448825349999996
+segmented,12,0.826169689
+mr12_candidates,12,0.0022188585

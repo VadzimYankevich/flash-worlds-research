@@ -1,0 +1,4 @@
+numerator,denominator,paired_rounds,median_paired_time_ratio,numerator_faster_rounds,denominator_faster_rounds,equal_rounds
+segmented,candidate_prime,12,2.7880983540785698,1,11,0
+candidate_prime,mr12_candidates,12,144.49176071663544,0,12,0
+segmented,mr12_candidates,12,377.39175717625557,0,12,0

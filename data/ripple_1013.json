@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-10-10T18:55:54.855677+00:00",
+  "classification": "Constructed exact examples, not a statistical sample or speed benchmark.",
+  "examples": [
+    {
+      "B": 1013,
+      "B_primality_verified": true,
+      "L": 3015,
+      "R": 3043,
+      "prime_axis": 1013,
+      "state": "active",
+      "shadow_nonempty": true,
+      "traces": [
+        {
+          "n": 3039,
+          "factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              1013,
+              1
+            ]
+          ],
+          "admissible_axes": [
+            3,
+            1013
+          ],
+          "larger_covering_axes": [],
+          "remains_after_all_larger_axes": true
+        }
+      ],
+      "residual_addresses": [
+        3039
+      ]
+    },
+    {
+      "B": 344083,
+      "B_primality_verified": true,
+      "L": 1032225,
+      "R": 1032253,
+      "prime_axis": 1013,
+      "state": "absorbed_by_larger_axes",
+      "shadow_nonempty": true,
+      "traces": [
+        {
+          "n": 1032247,
+          "factorization": [
+            [
+              1013,
+              1
+            ],
+            [
+              1019,
+              1
+            ]
+          ],
+          "admissible_axes": [
+            1013,
+            1019
+          ],
+          "larger_covering_axes": [
+            1019
+          ],
+          "remains_after_all_larger_axes": false
+        }
+      ],
+      "residual_addresses": []
+    },
+    {
+      "B": 1710287,
+      "B_primality_verified": true,
+      "L": 5130837,
+      "R": 5130865,
+      "prime_axis": 1013,
+      "state": "active",
+      "shadow_nonempty": true,
+      "traces": [
+        {
+          "n": 5130845,
+          "factorization": [
+            [
+              5,
+              1
+            ],
+            [
+              1013,
+              2
+            ]
+          ],
+          "admissible_axes": [
+            5,
+            1013
+          ],
+          "larger_covering_axes": [],
+          "remains_after_all_larger_axes": true
+        }
+      ],
+      "residual_addresses": [
+        5130845
+      ]
+    }
+  ],
+  "identity": "The residual of T_1013 after all larger prime axes is precisely the composite addresses with largest prime factor 1013 in the safe window.",
+  "consequence": "Absorption of a nonempty trace in one window does not justify permanently deleting the old prime axis from every later world.",
+  "limitations": [
+    "The three selected prime worlds are not claimed to form consecutive flashes or the canonical route starting at 3.",
+    "Every address in T_1013 is factored exactly; the other window addresses are not classified by this demonstration.",
+    "These examples do not provide an efficient search algorithm for residual addresses near the record prime.",
+    "No-shadow-in-window and absorption-of-a-nonempty-shadow are separate states."
+  ],
+  "total_computation_seconds_excluding_serialization": 0.0005117940017953515
+}

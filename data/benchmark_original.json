@@ -1,0 +1,330 @@
+{
+  "status": "PASS",
+  "classification": "short diagnostic, not full benchmark campaign",
+  "flashes": 28,
+  "rounds": 12,
+  "observations": 36,
+  "cold_backend_each_observation": true,
+  "one_process_shared_imports": true,
+  "all_six_orders_twice": true,
+  "pinned_cpu": 8,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "automatic_gc_enabled": true,
+  "timing": "wall perf_counter_ns; includes backend construction and full shared controller route; excludes imports, pre-run gc, result comparison and object destruction",
+  "MR": "12 bases 2..37, deterministic only within declared n<2^64; independent competitor implementation; no working import from validation module",
+  "contract": "same maximum and closed suffix, identical short windows and anchor sequence, optional factor witnesses not required from competitors",
+  "verification": "all route/window/suffix signatures compared after each timer; no reference answers enter the working backends",
+  "window_answers_compared": 1116,
+  "distinct_windows": 31,
+  "final_anchor": 63286095838211,
+  "median_seconds": {
+    "candidate_prime": 0.2635063395,
+    "segmented": 0.7131995175,
+    "mr12_candidates": 0.0020351135
+  },
+  "median_paired_speedup_vs_mr": {
+    "candidate_prime": 144.49176071663544,
+    "segmented": 377.39175717625557
+  },
+  "mr_wins_vs_prime": 12,
+  "mr_wins_vs_segmented": 12,
+  "source_sha256": {
+    "candidate_work/flash_candidates.py": "99badc4429ab044dc97014d5952fc1b04b9f1e5d6ebfbb78573ef164d85a949e",
+    "candidate_work/candidate_sieves.py": "f967ee5fe5186db80e270eb2717dd712d19b3d563429cf4e9797e8ae96fa4615"
+  },
+  "observations_raw": [
+    {
+      "round": 1,
+      "position": 1,
+      "mode": "candidate_prime",
+      "seconds": 0.472012441
+    },
+    {
+      "round": 1,
+      "position": 2,
+      "mode": "segmented",
+      "seconds": 0.664307941
+    },
+    {
+      "round": 1,
+      "position": 3,
+      "mode": "mr12_candidates",
+      "seconds": 0.002022882
+    },
+    {
+      "round": 2,
+      "position": 1,
+      "mode": "candidate_prime",
+      "seconds": 0.231109915
+    },
+    {
+      "round": 2,
+      "position": 2,
+      "mode": "mr12_candidates",
+      "seconds": 0.001625735
+    },
+    {
+      "round": 2,
+      "position": 3,
+      "mode": "segmented",
+      "seconds": 0.690099754
+    },
+    {
+      "round": 3,
+      "position": 1,
+      "mode": "segmented",
+      "seconds": 0.694186065
+    },
+    {
+      "round": 3,
+      "position": 2,
+      "mode": "candidate_prime",
+      "seconds": 0.257970804
+    },
+    {
+      "round": 3,
+      "position": 3,
+      "mode": "mr12_candidates",
+      "seconds": 0.002457661
+    },
+    {
+      "round": 4,
+      "position": 1,
+      "mode": "segmented",
+      "seconds": 0.691962176
+    },
+    {
+      "round": 4,
+      "position": 2,
+      "mode": "mr12_candidates",
+      "seconds": 0.001742349
+    },
+    {
+      "round": 4,
+      "position": 3,
+      "mode": "candidate_prime",
+      "seconds": 0.262502257
+    },
+    {
+      "round": 5,
+      "position": 1,
+      "mode": "mr12_candidates",
+      "seconds": 0.002054759
+    },
+    {
+      "round": 5,
+      "position": 2,
+      "mode": "candidate_prime",
+      "seconds": 0.255913846
+    },
+    {
+      "round": 5,
+      "position": 3,
+      "mode": "segmented",
+      "seconds": 0.690735068
+    },
+    {
+      "round": 6,
+      "position": 1,
+      "mode": "mr12_candidates",
+      "seconds": 0.002202612
+    },
+    {
+      "round": 6,
+      "position": 2,
+      "mode": "segmented",
+      "seconds": 0.762797011
+    },
+    {
+      "round": 6,
+      "position": 3,
+      "mode": "candidate_prime",
+      "seconds": 0.264510422
+    },
+    {
+      "round": 7,
+      "position": 1,
+      "mode": "candidate_prime",
+      "seconds": 0.34924816
+    },
+    {
+      "round": 7,
+      "position": 2,
+      "mode": "segmented",
+      "seconds": 0.744839036
+    },
+    {
+      "round": 7,
+      "position": 3,
+      "mode": "mr12_candidates",
+      "seconds": 0.001613833
+    },
+    {
+      "round": 8,
+      "position": 1,
+      "mode": "candidate_prime",
+      "seconds": 0.254371487
+    },
+    {
+      "round": 8,
+      "position": 2,
+      "mode": "mr12_candidates",
+      "seconds": 0.002047345
+    },
+    {
+      "round": 8,
+      "position": 3,
+      "mode": "segmented",
+      "seconds": 0.73221297
+    },
+    {
+      "round": 9,
+      "position": 1,
+      "mode": "segmented",
+      "seconds": 0.673573583
+    },
+    {
+      "round": 9,
+      "position": 2,
+      "mode": "candidate_prime",
+      "seconds": 0.23019466
+    },
+    {
+      "round": 9,
+      "position": 3,
+      "mode": "mr12_candidates",
+      "seconds": 0.001159149
+    },
+    {
+      "round": 10,
+      "position": 1,
+      "mode": "segmented",
+      "seconds": 0.813714853
+    },
+    {
+      "round": 10,
+      "position": 2,
+      "mode": "mr12_candidates",
+      "seconds": 0.00192625
+    },
+    {
+      "round": 10,
+      "position": 3,
+      "mode": "candidate_prime",
+      "seconds": 0.282824226
+    },
+    {
+      "round": 11,
+      "position": 1,
+      "mode": "mr12_candidates",
+      "seconds": 0.002423212
+    },
+    {
+      "round": 11,
+      "position": 2,
+      "mode": "candidate_prime",
+      "seconds": 0.299509514
+    },
+    {
+      "round": 11,
+      "position": 3,
+      "mode": "segmented",
+      "seconds": 0.974972581
+    },
+    {
+      "round": 12,
+      "position": 1,
+      "mode": "mr12_candidates",
+      "seconds": 0.003272189
+    },
+    {
+      "round": 12,
+      "position": 2,
+      "mode": "segmented",
+      "seconds": 0.748828191
+    },
+    {
+      "round": 12,
+      "position": 3,
+      "mode": "candidate_prime",
+      "seconds": 0.798272006
+    }
+  ],
+  "pairs": [
+    {
+      "round": 1,
+      "prime_over_mr": 233.33661627321808,
+      "segmented_over_mr": 328.3967829067637
+    },
+    {
+      "round": 2,
+      "prime_over_mr": 142.15718736448437,
+      "segmented_over_mr": 424.48477396377643
+    },
+    {
+      "round": 3,
+      "prime_over_mr": 104.96598351033768,
+      "segmented_over_mr": 282.45802207871634
+    },
+    {
+      "round": 4,
+      "prime_over_mr": 150.65997512553457,
+      "segmented_over_mr": 397.1432680823417
+    },
+    {
+      "round": 5,
+      "prime_over_mr": 124.54689138726243,
+      "segmented_over_mr": 336.16354424046807
+    },
+    {
+      "round": 6,
+      "prime_over_mr": 120.08943109362885,
+      "segmented_over_mr": 346.3147440402576
+    },
+    {
+      "round": 7,
+      "prime_over_mr": 216.40910800559908,
+      "segmented_over_mr": 461.5341463459974
+    },
+    {
+      "round": 8,
+      "prime_over_mr": 124.24456405735233,
+      "segmented_over_mr": 357.6402462701694
+    },
+    {
+      "round": 9,
+      "prime_over_mr": 198.5893616782657,
+      "segmented_over_mr": 581.0931838788629
+    },
+    {
+      "round": 10,
+      "prime_over_mr": 146.8263340687865,
+      "segmented_over_mr": 422.4347062946139
+    },
+    {
+      "round": 11,
+      "prime_over_mr": 123.60021079459823,
+      "segmented_over_mr": 402.3472073429811
+    },
+    {
+      "round": 12,
+      "prime_over_mr": 243.95657035703013,
+      "segmented_over_mr": 228.8462527684067
+    }
+  ],
+  "reproduction": {
+    "run_from": "Directory containing candidate_work/",
+    "instructions": "The embedded_sources map contains the exact two local dependency files and strong_baseline_probe.py. Write each map value as UTF-8 text at its corresponding relative path in an empty directory, then run python strong_baseline_probe.py from that directory. No third-party Python packages are needed."
+  },
+  "embedded_sources": {
+    "candidate_work/flash_candidates.py": "\"\"\"Candidate-first flash route: rightmost address and a closed suffix only.\n\nThe hot route retains explicit addresses, factor witnesses and earned basis\nstate.  It never asks for the number of holes to the left of its maximum.\nThe working candidate engines use exact integer division, not the independent\nMiller--Rabin validator.  No article or formal proof is part of this module.\n\nExamples:\n    python flash_candidates.py --mode candidate_wheel --flashes 28\n    python flash_candidates.py --mode candidate_prime --flashes 28 --profile\n\nThe legacy_periods adapter is an optional ablation and requires the adjacent\nfrozen direct_access_work directory.  All other modes need only this file and\ncandidate_sieves.py.  A FlashRunner can continue with its resident backend;\nits answers, addresses and small basis remain available without reconstruction.\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nfrom bisect import bisect_right\nfrom itertools import islice\nimport json\nfrom math import isqrt\nfrom pathlib import Path\nimport sys\nimport time\n\nfrom candidate_sieves import (\n    SmallPrimeBasis, CandidateSegmentedSieve, CandidateFullSieve,\n    CandidateIncrementalSieve, _answer, _check_window,\n)\n\n\ndef gate(B):\n    return min(B * B, 3 * B + 4)\n\n\nclass CandidateBase:\n    \"\"\"Address-first search; completed facts are retained as native values.\"\"\"\n    name = \"candidate_base\"\n    period_family = \"unspecified\"\n\n    def __init__(self, profile=False):\n        self.profile = profile\n        self.facts = {}  # n -> first factor, or None for a certified hole.\n        self.queries = self.candidates = self.rejected = self.accepted = 0\n        self.address_cache_hits = self.modulus_tests = 0\n        self.basis_seconds = 0.0\n        self.maximum_trial_limit = 0\n\n    def search(self, B, L, R):\n        _check_window(B, L, R)\n        self.queries += 1\n        witnesses = []\n        address = None\n        max_cert = None\n        for n in range(R, L - 1, -2):\n            self.candidates += 1\n            limit = isqrt(n)\n            if n in self.facts:\n                self.address_cache_hits += 1\n                factor = self.facts[n]\n                cached = True\n            else:\n                factor = self._test(n, limit)\n                self.facts[n] = factor\n                self.maximum_trial_limit = max(self.maximum_trial_limit, limit)\n                cached = False\n            if factor is not None:\n                self.rejected += 1\n                witnesses.append(dict(n=n, d=factor, m=n // factor,\n                                      saved_fact_reused=cached))\n                continue\n            self.accepted += 1\n            address = n\n            max_cert = dict(method=\"trial_division\", trial_limit=limit,\n                            period_family=self.period_family,\n                            saved_fact_reused=cached)\n            break\n        result = _answer(address, B, L, R,\n                         \"one retained factor witness for each rejected address\")\n        result.update(witnesses=witnesses, max_cert=max_cert)\n        return result\n\n    def snapshot(self):\n        result = dict(\n            engine=self.name, diagnostics_enabled=self.profile,\n            queries=self.queries, candidates_visited=self.candidates,\n            composite_candidates=self.rejected, accepted_candidates=self.accepted,\n            retained_address_facts=len(self.facts),\n            retained_shadow_periods=len({d for d in self.facts.values() if d is not None}),\n            address_cache_hits=self.address_cache_hits,\n            full_window_hole_counts=0, hole_address_reconstructions=0,\n            AP_unions=0, CRT_intersections=0, moments=0,\n            maximum_trial_limit=self.maximum_trial_limit,\n            modulus_tests=self.modulus_tests if self.profile else None,\n            basis_seconds=self.basis_seconds if self.profile else None,\n            working_external_primality_test_calls=0,\n        )\n        if hasattr(self, \"base\"):\n            result[\"base\"] = self.base.snapshot()\n        return result\n\n\nclass CandidateOdd(CandidateBase):\n    name = \"candidate_odd_division\"\n    period_family = \"all odd divisors through isqrt(n), first shadow stops\"\n\n    def _test(self, n, limit):\n        factor = None\n        for d in range(3, limit + 1, 2):\n            if n % d == 0:\n                factor = d\n                break\n        if self.profile:\n            self.modulus_tests += max(0, ((factor or limit) - 1) // 2)\n        return factor\n\n\nWHEEL_RESIDUES = (7, 11, 13, 17, 19, 23, 29, 31)\n\n\nclass CandidateWheel(CandidateBase):\n    name = \"candidate_wheel30_division\"\n    period_family = \"3,5 then residues coprime to30 through isqrt(n)\"\n\n    def _test(self, n, limit):\n        small_tests = 0\n        for p in (3, 5):\n            if p > limit:\n                if self.profile:\n                    self.modulus_tests += small_tests\n                return None\n            small_tests += 1\n            if n % p == 0:\n                if self.profile:\n                    self.modulus_tests += small_tests\n                return p\n        d, factor = 7, None\n        # Unrolled ordered residues avoid a Python generator per divisor.\n        while d + 24 <= limit:\n            if n % d == 0:\n                factor = d\n                break\n            if n % (d + 4) == 0:\n                factor = d + 4\n                break\n            if n % (d + 6) == 0:\n                factor = d + 6\n                break\n            if n % (d + 10) == 0:\n                factor = d + 10\n                break\n            if n % (d + 12) == 0:\n                factor = d + 12\n                break\n            if n % (d + 16) == 0:\n                factor = d + 16\n                break\n            if n % (d + 22) == 0:\n                factor = d + 22\n                break\n            if n % (d + 24) == 0:\n                factor = d + 24\n                break\n            d += 30\n        if factor is None:\n            for offset in (0, 4, 6, 10, 12, 16, 22, 24):\n                p = d + offset\n                if p > limit:\n                    break\n                if n % p == 0:\n                    factor = p\n                    break\n        if self.profile:\n            end = factor or limit\n            self.modulus_tests += small_tests + sum(\n                max(0, (end - r) // 30 + 1) for r in WHEEL_RESIDUES)\n        return factor\n\n\nclass CandidatePrime(CandidateBase):\n    name = \"candidate_retained_prime_basis\"\n    period_family = \"3,5 then complete retained odd-prime basis through isqrt(n)\"\n\n    def __init__(self, profile=False):\n        super().__init__(profile)\n        self.base = SmallPrimeBasis(diagnostics=profile)\n\n    def _test(self, n, limit):\n        small_tests = 0\n        for p in (3, 5):\n            if p > limit:\n                if self.profile:\n                    self.modulus_tests += small_tests\n                return None\n            small_tests += 1\n            if n % p == 0:\n                if self.profile:\n                    self.modulus_tests += small_tests\n                return p\n        # Only a surviving candidate requests basis expansion.  The same\n        # SmallPrimeBasis implementation is used and paid for by segmentation.\n        if self.profile:\n            t0 = time.perf_counter()\n        primes, stop = self.base.prepare(limit)\n        if self.profile:\n            self.basis_seconds += time.perf_counter() - t0\n        start = bisect_right(primes, 5, 0, stop)\n        factor = None\n        for p in islice(primes, start, stop):\n            if n % p == 0:\n                factor = p\n                break\n        if self.profile:\n            end = stop if factor is None else bisect_right(primes, factor, start, stop)\n            self.modulus_tests += small_tests + end - start\n        return factor\n\n\nclass LegacyPeriods:\n    \"\"\"Frozen coverage-first producer under the new caller, for ablation.\"\"\"\n    name = \"legacy_full_AP_period_coverage\"\n\n    def __init__(self, profile=False):\n        frozen = Path(__file__).resolve().parent.parent / \"direct_access_work\"\n        if not frozen.is_dir():\n            raise RuntimeError(\"legacy_periods requires adjacent direct_access_work\")\n        sys.path.insert(0, str(frozen))\n        from flash_active_periods import prepare_fresh_window\n        from flash_exact import ExactAPCounter\n        self.prepare = prepare_fresh_window\n        self.counter_class = ExactAPCounter\n        self.work = {}\n        self.queries = 0\n\n    def search(self, B, L, R):\n        _check_window(B, L, R)\n        prepared = self.prepare(B, L, R)\n        self.queries += 1\n        for key, value in prepared[\"producer_work\"].items():\n            self.work[key] = self.work.get(key, 0) + value\n        counter = self.counter_class(prepared[\"hole_terms\"], L, R, world_B=B)\n        selected = counter.rightmost()\n        return dict(address=selected[\"address\"],\n                    closed_suffix=selected[\"closed_suffix\"])\n\n    def snapshot(self):\n        return dict(engine=self.name, queries=self.queries, producer_activity=self.work,\n                    full_window_hole_counts=self.queries,\n                    legacy_internal_operation_counters_always_enabled=True)\n\n\nMODES = (\"candidate_odd\", \"candidate_wheel\", \"candidate_prime\", \"segmented\",\n         \"full\", \"incremental\", \"legacy_periods\")\n\n\ndef make_backend(mode, profile=False):\n    if mode == \"candidate_odd\":\n        return CandidateOdd(profile)\n    if mode == \"candidate_wheel\":\n        return CandidateWheel(profile)\n    if mode == \"candidate_prime\":\n        return CandidatePrime(profile)\n    if mode == \"segmented\":\n        return CandidateSegmentedSieve(diagnostics=profile)\n    if mode == \"full\":\n        return CandidateFullSieve(diagnostics=profile)\n    if mode == \"incremental\":\n        return CandidateIncrementalSieve(diagnostics=profile)\n    if mode == \"legacy_periods\":\n        return LegacyPeriods(profile)\n    raise ValueError(\"Unknown mode: \" + str(mode))\n\n\nclass FlashRunner:\n    \"\"\"Small resident state with direct facts; no universal query/counter layer.\"\"\"\n\n    def __init__(self, backend):\n        self.backend = backend\n        self.B = 3\n        self.previous_R = None\n        self.anchors = [3]\n        self.windows = []\n        self.steps = []\n        self.answers = {}\n        self.exact_answer_cache_hits = 0\n\n    def run(self, flashes):\n        if type(flashes) is not int or flashes < 0:\n            raise ValueError(\"flashes must be a nonnegative integer\")\n        for _ in range(flashes):\n            B, previous_R = self.B, self.previous_R\n            upper = gate(B)\n            lower = max(B + 2, previous_R + 2 if previous_R is not None else B + 2)\n            right = upper\n            suffix_parts = []\n            indices = []\n            while right >= lower:\n                left = max(lower, right - 28)\n                key = B, left, right\n                answer = self.answers.get(key)\n                if answer is None:\n                    answer = self.backend.search(B, left, right)\n                    self.answers[key] = answer\n                else:\n                    self.exact_answer_cache_hits += 1\n                idx = len(self.windows)\n                self.windows.append(dict(B=B, L=left, R=right,\n                                         flash_index=len(self.steps) + 1, **answer))\n                indices.append(idx)\n                suffix_parts.append(answer[\"closed_suffix\"])\n                address = answer[\"address\"]\n                if address is not None:\n                    break\n                right = left - 2\n            else:\n                raise ArithmeticError(\"No advancing hole within the search frontier\")\n            if not B < address <= upper:\n                raise ArithmeticError(\"Non-advancing flash result\")\n            closed = dict(L=address + 2, R=upper, world_B=B,\n                          exact_hole_mass=0, empty_interval=address + 2 > upper,\n                          witness=\"retained candidate or sieve suffix certificates\",\n                          parts=list(reversed(suffix_parts)))\n            self.steps.append(dict(B=B, R=upper, last_hole=address,\n                                   flash_index=len(self.steps) + 1,\n                                   search_lower_bound=lower, previous_closed_R=previous_R,\n                                   window_indices=indices, closed_suffix=closed))\n            self.B, self.previous_R = address, upper\n            self.anchors.append(address)\n        return self.result()\n\n    def result(self):\n        return dict(status=\"PASS\", contract=\"maximum_and_closed_suffix_only\",\n                    completed_flashes=len(self.steps), anchors=list(self.anchors),\n                    windows=list(self.windows), steps=list(self.steps),\n                    final_state=dict(B=self.B, previous_R=self.previous_R),\n                    direct_facts=dict(retained_answers=len(self.answers),\n                                      exact_answer_cache_hits=self.exact_answer_cache_hits),\n                    full_window_count_required=False,\n                    independent_validator_used_by_working_algorithm=False)\n\n\ndef run_route(backend, flashes=12):\n    return FlashRunner(backend).run(flashes)\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--mode\", choices=MODES, default=\"candidate_wheel\")\n    parser.add_argument(\"--flashes\", type=int, default=20)\n    parser.add_argument(\"--profile\", action=\"store_true\")\n    parser.add_argument(\"--output\", type=Path)\n    args = parser.parse_args()\n    t0 = time.perf_counter()\n    backend = make_backend(args.mode, profile=args.profile)\n    result = run_route(backend, args.flashes)\n    elapsed = time.perf_counter() - t0\n    result.update(mode=args.mode, elapsed_seconds=elapsed, backend=backend.snapshot())\n    # Validation is a separate, optional import after completion and timer stop.\n    from candidate_validation import validate_route\n    result[\"validation\"] = validate_route(result)\n    if args.output:\n        args.output.parent.mkdir(parents=True, exist_ok=True)\n        args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + \"\\n\")\n        print(json.dumps(dict(status=result[\"status\"], mode=args.mode,\n                              flashes=args.flashes, anchor=result[\"anchors\"][-1],\n                              elapsed_seconds=elapsed, output=str(args.output)),\n                         ensure_ascii=False))\n    else:\n        print(json.dumps(result, ensure_ascii=False, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "candidate_work/candidate_sieves.py": "\"\"\"Exact sieve baselines for a rightmost-hole / closed-suffix contract.\n\nNo engine counts all holes or materializes all window prime addresses.  The\nfinite-world caller supplies B and an odd window inside min(B*B, 3*B+4), where\nodd-prime positions are exactly the world's holes.  Every cold instance pays\nfor its own required prime basis, beginning with the seed 3.\n\nSmallPrimeBasis.prepare(limit) returns (owned_list, stop_index).  Callers must\nnot mutate that list; itertools.islice(list, stop_index) visits only the needed\nprefix without copying a potentially large list of prime addresses.  Basis\nextension is distinct from searching a distant window and reuses all existing\nflags and prime addresses.\n\nDiagnostic operation counters are optional.  Production loops contain no\nper-divisor dictionary updates and choose instrumented or plain loops once.\nPayload counters describe bytearrays, not total process RSS.\n\"\"\"\nfrom __future__ import annotations\n\nfrom bisect import bisect_right\nfrom itertools import islice\nfrom math import isqrt\n\n\nDEFAULT_MAX_BITMAP_BYTES = 256 * 1024 * 1024\n\n\ndef _odd_floor(limit: int) -> int:\n    return limit - (limit % 2 == 0)\n\n\ndef _check_window(B: int, L: int, R: int) -> None:\n    if not (isinstance(B, int) and isinstance(L, int) and isinstance(R, int)\n            and B >= 3 and B % 2 and 3 <= L <= R and L % 2 and R % 2):\n        raise ValueError(\"Expected odd B >= 3 and odd endpoints 3 <= L <= R\")\n    if R > min(B * B, 3 * B + 4):\n        raise ValueError(\"Window exceeds the exact finite-world frontier\")\n\n\ndef _answer(address: int | None, B: int, L: int, R: int, witness: str) -> dict:\n    suffix_left = L if address is None else address + 2\n    return {\n        \"address\": address,\n        \"closed_suffix\": {\n            \"L\": suffix_left, \"R\": R, \"world_B\": B,\n            \"exact_hole_mass\": 0, \"empty_interval\": suffix_left > R,\n            \"witness\": witness,\n        },\n    }\n\n\ndef append_prime_addresses_scan(primes: list[int], flags: bytearray,\n                                previous_limit: int, limit: int) -> None:\n    \"\"\"Materialize a new certified prefix by inspecting each odd bitmap cell.\"\"\"\n    primes.extend([p for p in range(previous_limit + 2, limit + 1, 2)\n                   if flags[(p - 3) // 2]])\n\n\ndef append_prime_addresses_find(primes: list[int], flags: bytearray,\n                                previous_limit: int, limit: int) -> None:\n    \"\"\"Append only positions of set bits; scan intervening zeroes inside C.\n\n    The owned bitmap and previously retained address list are never sliced or\n    copied.  In particular, this variant needs no temporary list of new primes.\n    The endpoints must be odd and flags must already be certified through limit.\n    \"\"\"\n    find = flags.find\n    append = primes.append\n    stop = (limit - 3) // 2 + 1\n    index = find(b\"\\x01\", (previous_limit - 3) // 2 + 1, stop)\n    while index >= 0:\n        append(2 * index + 3)\n        index = find(b\"\\x01\", index + 1, stop)\n\n\nclass SmallPrimeBasis:\n    \"\"\"Incrementally certified odd bitmap and lazily materialized prime list.\n\n    ensure(limit) pays only for the bitmap and the smaller marking basis.\n    prepare(limit) also materializes prime addresses through the needed limit.\n    Neither method copies previously retained flags or prime addresses.\n    \"\"\"\n\n    def __init__(self, diagnostics: bool = False,\n                 max_bitmap_bytes: int | None = DEFAULT_MAX_BITMAP_BYTES,\n                 materialization: str = \"find\"):\n        if materialization not in (\"scan\", \"find\"):\n            raise ValueError(\"materialization must be 'scan' or 'find'\")\n        self.diagnostics = diagnostics\n        self.max_bitmap_bytes = max_bitmap_bytes\n        self.materialization = materialization\n        self.limit = 3\n        self.flags = bytearray(b\"\\x01\")\n        self.primes = [3]\n        self.prime_list_limit = 3\n        self.extensions = 0\n        self.prime_materializations = 0\n        self.base_flag_positions_inspected = 0\n        self.base_flag_positions_considered = 0\n        self.base_flag_find_calls = 0\n        self.period_checks = 0\n        self.composite_slot_writes = 0\n        self.marking_progressions = 0\n\n    def prepare(self, limit: int) -> tuple[list[int], int]:\n        limit = _odd_floor(limit)\n        self.ensure(limit)\n        if limit > self.prime_list_limit:\n            flags = self.flags\n            old_list_limit = self.prime_list_limit\n            old_count = len(self.primes)\n            if self.materialization == \"scan\":\n                append_prime_addresses_scan(self.primes, flags, old_list_limit, limit)\n            else:\n                append_prime_addresses_find(self.primes, flags, old_list_limit, limit)\n            self.prime_list_limit = limit\n            self.prime_materializations += 1\n            if self.diagnostics:\n                positions = (limit - old_list_limit) // 2\n                self.base_flag_positions_considered += positions\n                if self.materialization == \"scan\":\n                    self.base_flag_positions_inspected += positions\n                else:\n                    self.base_flag_find_calls += len(self.primes) - old_count + 1\n        stop = (len(self.primes) if limit >= self.prime_list_limit\n                else bisect_right(self.primes, limit))\n        return self.primes, stop\n\n    def ensure(self, limit: int) -> None:\n        limit = _odd_floor(limit)\n        if limit <= self.limit:\n            return\n        size = (limit - 1) // 2\n        if self.max_bitmap_bytes is not None and size > self.max_bitmap_bytes:\n            raise MemoryError(f\"Requested odd bitmap {size} bytes exceeds cap \"\n                              f\"{self.max_bitmap_bytes}\")\n        primes, stop = self.prepare(isqrt(limit))\n        old_limit = self.limit  # Recursive preparation may extend the prefix.\n        flags = self.flags\n        flags.extend(b\"\\x01\" * ((limit - old_limit) // 2))\n        if self.diagnostics:\n            writes = progressions = 0\n            for p in islice(primes, stop):\n                first = max(p * p, ((old_limit + 2 + p - 1) // p) * p)\n                if first % 2 == 0:\n                    first += p\n                if first > limit:\n                    continue\n                count = (limit - first) // (2 * p) + 1\n                flags[(first - 3) // 2::p] = b\"\\x00\" * count\n                writes += count\n                progressions += 1\n            self.period_checks += stop\n            self.composite_slot_writes += writes\n            self.marking_progressions += progressions\n        else:\n            for p in islice(primes, stop):\n                first = max(p * p, ((old_limit + 2 + p - 1) // p) * p)\n                if first % 2 == 0:\n                    first += p\n                if first > limit:\n                    continue\n                count = (limit - first) // (2 * p) + 1\n                flags[(first - 3) // 2::p] = b\"\\x00\" * count\n        self.limit = limit\n        self.extensions += 1\n\n    def snapshot(self) -> dict:\n        return {\n            \"bitmap_certified_through\": self.limit,\n            \"prime_list_certified_through\": self.prime_list_limit,\n            \"retained_base_prime_addresses\": len(self.primes),\n            \"retained_sieve_payload_bytes\": len(self.flags),\n            \"base_sieve_builds\": self.extensions,\n            \"prime_materializations\": self.prime_materializations,\n            \"materialization_strategy\": self.materialization,\n            \"diagnostics_enabled\": self.diagnostics,\n            \"base_flag_positions_inspected\": (\n                self.base_flag_positions_inspected\n                if self.diagnostics and self.materialization == \"scan\" else None),\n            \"base_flag_positions_considered\": (\n                self.base_flag_positions_considered if self.diagnostics else None),\n            \"base_flag_find_calls\": (\n                self.base_flag_find_calls if self.diagnostics else None),\n            \"base_period_checks\": self.period_checks if self.diagnostics else None,\n            \"base_composite_slot_writes\": (\n                self.composite_slot_writes if self.diagnostics else None),\n            \"base_marking_progressions\": (\n                self.marking_progressions if self.diagnostics else None),\n            \"prime_list_copies\": 0,\n        }\n\n\nclass CandidateSegmentedSieve:\n    \"\"\"Short segmented Eratosthenes, with its own incremental small basis.\"\"\"\n\n    name = \"candidate_segmented_odd\"\n\n    def __init__(self, diagnostics: bool = False,\n                 max_bitmap_bytes: int | None = DEFAULT_MAX_BITMAP_BYTES):\n        self.diagnostics = diagnostics\n        self.base = SmallPrimeBasis(diagnostics, max_bitmap_bytes)\n        self.queries = 0\n        self.queried_odd_cells = 0\n        self.segment_builds = 0\n        self.prefix_queries = 0\n        self.segment_period_checks = 0\n        self.segment_composite_slot_writes = 0\n        self.segment_marking_progressions = 0\n        self.peak_sieve_payload_bytes = 1\n\n    def search(self, B: int, L: int, R: int) -> dict:\n        _check_window(B, L, R)\n        self.queries += 1\n        size = (R - L) // 2 + 1\n        self.queried_odd_cells += size\n        if L <= self.base.limit + 2:\n            # Contiguous requested positions can become retained basis facts.\n            self.base.ensure(R)\n            self.prefix_queries += 1\n            idx = self.base.flags.rfind(b\"\\x01\", (L - 3) // 2, (R - 3) // 2 + 1)\n            address = None if idx < 0 else 2 * idx + 3\n            self.peak_sieve_payload_bytes = max(\n                self.peak_sieve_payload_bytes, len(self.base.flags))\n        else:\n            primes, stop = self.base.prepare(isqrt(R))\n            if R <= self.base.limit:\n                self.prefix_queries += 1\n                idx = self.base.flags.rfind(b\"\\x01\", (L - 3) // 2, (R - 3) // 2 + 1)\n                address = None if idx < 0 else 2 * idx + 3\n            else:\n                window = bytearray(b\"\\x01\") * size\n                self.segment_builds += 1\n                self.peak_sieve_payload_bytes = max(\n                    self.peak_sieve_payload_bytes, len(self.base.flags) + size)\n                if self.diagnostics:\n                    writes = progressions = 0\n                    for p in islice(primes, stop):\n                        first = max(p * p, ((L + p - 1) // p) * p)\n                        if first % 2 == 0:\n                            first += p\n                        if first > R:\n                            continue\n                        count = (R - first) // (2 * p) + 1\n                        window[(first - L) // 2::p] = b\"\\x00\" * count\n                        writes += count\n                        progressions += 1\n                    self.segment_period_checks += stop\n                    self.segment_composite_slot_writes += writes\n                    self.segment_marking_progressions += progressions\n                else:\n                    for p in islice(primes, stop):\n                        first = max(p * p, ((L + p - 1) // p) * p)\n                        if first % 2 == 0:\n                            first += p\n                        if first > R:\n                            continue\n                        count = (R - first) // (2 * p) + 1\n                        window[(first - L) // 2::p] = b\"\\x00\" * count\n                idx = window.rfind(b\"\\x01\")\n                address = None if idx < 0 else L + 2 * idx\n        return _answer(address, B, L, R,\n                       \"complete segmented odd-prime bitmap in the finite-world frontier\")\n\n    def snapshot(self) -> dict:\n        return {\n            \"engine\": self.name, \"queries\": self.queries,\n            \"queried_odd_cells\": self.queried_odd_cells,\n            \"segment_builds\": self.segment_builds,\n            \"prefix_queries\": self.prefix_queries,\n            \"full_window_hole_counts\": 0,\n            \"all_window_addresses_materialized\": 0,\n            \"peak_sieve_payload_bytes\": self.peak_sieve_payload_bytes,\n            \"segment_period_checks\": (\n                self.segment_period_checks if self.diagnostics else None),\n            \"segment_composite_slot_writes\": (\n                self.segment_composite_slot_writes if self.diagnostics else None),\n            \"segment_marking_progressions\": (\n                self.segment_marking_progressions if self.diagnostics else None),\n            \"base\": self.base.snapshot(),\n        }\n\n\nclass CandidateFullSieve:\n    \"\"\"Rebuild a full odd bitmap when its upper bound increases; retain it.\"\"\"\n\n    name = \"candidate_full_odd\"\n\n    def __init__(self, diagnostics: bool = False,\n                 max_bitmap_bytes: int | None = DEFAULT_MAX_BITMAP_BYTES):\n        self.diagnostics = diagnostics\n        self.max_bitmap_bytes = max_bitmap_bytes\n        self.limit = 3\n        self.flags = bytearray(b\"\\x01\")\n        self.queries = 0\n        self.queried_odd_cells = 0\n        self.sieve_builds = 0\n        self.composite_slot_writes = 0\n        self.marking_progressions = 0\n        self.peak_sieve_payload_bytes = 1\n\n    def ensure(self, limit: int) -> None:\n        limit = _odd_floor(limit)\n        if limit <= self.limit:\n            return\n        size = (limit - 1) // 2\n        if self.max_bitmap_bytes is not None and size > self.max_bitmap_bytes:\n            raise MemoryError(f\"Requested odd bitmap {size} bytes exceeds cap \"\n                              f\"{self.max_bitmap_bytes}\")\n        flags = bytearray(b\"\\x01\") * size\n        if self.diagnostics:\n            writes = progressions = 0\n            for p in range(3, isqrt(limit) + 1, 2):\n                if flags[(p - 3) // 2]:\n                    first = (p * p - 3) // 2\n                    count = (size - 1 - first) // p + 1\n                    flags[first::p] = b\"\\x00\" * count\n                    writes += count\n                    progressions += 1\n            self.composite_slot_writes += writes\n            self.marking_progressions += progressions\n        else:\n            for p in range(3, isqrt(limit) + 1, 2):\n                if flags[(p - 3) // 2]:\n                    first = (p * p - 3) // 2\n                    count = (size - 1 - first) // p + 1\n                    flags[first::p] = b\"\\x00\" * count\n        self.peak_sieve_payload_bytes = max(\n            self.peak_sieve_payload_bytes, len(self.flags) + size)\n        self.flags = flags\n        self.limit = limit\n        self.sieve_builds += 1\n\n    def search(self, B: int, L: int, R: int) -> dict:\n        _check_window(B, L, R)\n        self.ensure(R)\n        self.queries += 1\n        self.queried_odd_cells += (R - L) // 2 + 1\n        idx = self.flags.rfind(b\"\\x01\", (L - 3) // 2, (R - 3) // 2 + 1)\n        address = None if idx < 0 else 2 * idx + 3\n        return _answer(address, B, L, R,\n                       \"complete full odd-prime bitmap in the finite-world frontier\")\n\n    def snapshot(self) -> dict:\n        return {\n            \"engine\": self.name, \"queries\": self.queries,\n            \"queried_odd_cells\": self.queried_odd_cells,\n            \"bitmap_certified_through\": self.limit,\n            \"retained_sieve_payload_bytes\": len(self.flags),\n            \"peak_sieve_payload_bytes\": self.peak_sieve_payload_bytes,\n            \"sieve_builds\": self.sieve_builds,\n            \"full_window_hole_counts\": 0,\n            \"all_window_addresses_materialized\": 0,\n            \"diagnostics_enabled\": self.diagnostics,\n            \"composite_slot_writes\": (\n                self.composite_slot_writes if self.diagnostics else None),\n            \"marking_progressions\": (\n                self.marking_progressions if self.diagnostics else None),\n        }\n\n\nclass CandidateIncrementalSieve:\n    \"\"\"Extend a full odd bitmap; answer by direct reverse bitmap lookup.\"\"\"\n\n    name = \"candidate_incremental_odd\"\n\n    def __init__(self, diagnostics: bool = False,\n                 max_bitmap_bytes: int | None = DEFAULT_MAX_BITMAP_BYTES):\n        self.base = SmallPrimeBasis(diagnostics, max_bitmap_bytes)\n        self.queries = 0\n        self.queried_odd_cells = 0\n\n    def search(self, B: int, L: int, R: int) -> dict:\n        _check_window(B, L, R)\n        self.base.ensure(R)\n        self.queries += 1\n        self.queried_odd_cells += (R - L) // 2 + 1\n        idx = self.base.flags.rfind(b\"\\x01\", (L - 3) // 2, (R - 3) // 2 + 1)\n        address = None if idx < 0 else 2 * idx + 3\n        return _answer(address, B, L, R,\n                       \"complete incremental odd-prime bitmap in the finite-world frontier\")\n\n    def snapshot(self) -> dict:\n        return {\n            \"engine\": self.name, \"queries\": self.queries,\n            \"queried_odd_cells\": self.queried_odd_cells,\n            \"full_window_hole_counts\": 0,\n            \"all_window_addresses_materialized\": 0,\n            \"peak_sieve_payload_bytes\": len(self.base.flags),\n            \"base\": self.base.snapshot(),\n        }\n",
+    "strong_baseline_probe.py": "import sys, os, time, gc, json, hashlib, platform\nfrom itertools import permutations\nfrom statistics import median\nfrom pathlib import Path\nsys.dont_write_bytecode=True\nsys.path.insert(0,str(Path('candidate_work').resolve()))\nfrom flash_candidates import FlashRunner, make_backend\nfrom candidate_sieves import _answer, _check_window\n\nBASES=(2,3,5,7,11,13,17,19,23,29,31,37)\ndef mr12(n):\n    if not 0<=n<2**64: raise ValueError('uint64 domain required')\n    if n<2: return False\n    for p in BASES:\n        if n==p: return True\n        if n%p==0: return False\n    d=n-1; s=0\n    while d%2==0: d//=2; s+=1\n    for a in BASES:\n        x=pow(a,d,n)\n        if x in (1,n-1): continue\n        for _ in range(s-1):\n            x=x*x%n\n            if x==n-1: break\n        else: return False\n    return True\n\nclass MRBackend:\n    def __init__(self):\n        self.facts={}\n        self.candidates=0\n    def search(self,B,L,R):\n        _check_window(B,L,R)\n        answer=None\n        for n in range(R,L-1,-2):\n            self.candidates+=1\n            if n not in self.facts: self.facts[n]=mr12(n)\n            if self.facts[n]: answer=n; break\n        return _answer(answer,B,L,R,'deterministic MR12 within uint64 domain')\n\ndef signature(r):\n    w=[(v['B'],v['L'],v['R'],v['address'],v['closed_suffix']['L'],v['closed_suffix']['R'],v['closed_suffix']['world_B'],v['closed_suffix']['exact_hole_mass']) for v in r['windows']]\n    s=[(v['B'],v['R'],v['last_hole'],v['search_lower_bound'],v['closed_suffix']['L'],v['closed_suffix']['R']) for v in r['steps']]\n    return r['anchors'],w,s\n\nmodes=('candidate_prime','segmented','mr12_candidates')\nallowed=sorted(os.sched_getaffinity(0))\npin=8 if 8 in allowed else allowed[0]\nos.sched_setaffinity(0,{pin})\nrows=[]; reference=None; verified=0\nfor round_no,order in enumerate(list(permutations(modes))*2,1):\n    for position,mode in enumerate(order,1):\n        gc.collect()\n        t=time.perf_counter_ns()\n        backend=MRBackend() if mode=='mr12_candidates' else make_backend(mode,False)\n        route=FlashRunner(backend).run(28)\n        elapsed=(time.perf_counter_ns()-t)/1e9\n        sig=signature(route)\n        if reference is None: reference=sig\n        assert sig==reference,(round_no,mode)\n        verified+=len(route['windows'])\n        rows.append({'round':round_no,'position':position,'mode':mode,'seconds':elapsed})\n        del backend,route,sig\nby_mode={m:median(r['seconds'] for r in rows if r['mode']==m) for m in modes}\npairs=[]\nfor round_no in range(1,13):\n    values={r['mode']:r['seconds'] for r in rows if r['round']==round_no}\n    pairs.append({'round':round_no,'prime_over_mr':values['candidate_prime']/values['mr12_candidates'],'segmented_over_mr':values['segmented']/values['mr12_candidates']})\nresult={'status':'PASS','classification':'short diagnostic, not full benchmark campaign',\n 'flashes':28,'rounds':12,'observations':len(rows),'cold_backend_each_observation':True,\n 'one_process_shared_imports':True,'all_six_orders_twice':True,'pinned_cpu':pin,\n 'python':sys.version,'platform':platform.platform(),'automatic_gc_enabled':gc.isenabled(),\n 'timing':'wall perf_counter_ns; includes backend construction and full shared controller route; excludes imports, pre-run gc, result comparison and object destruction',\n 'MR':'12 bases 2..37, deterministic only within declared n<2^64; independent competitor implementation; no working import from validation module',\n 'contract':'same maximum and closed suffix, identical short windows and anchor sequence, optional factor witnesses not required from competitors',\n 'verification':'all route/window/suffix signatures compared after each timer; no reference answers enter the working backends',\n 'window_answers_compared':verified,'distinct_windows':len(reference[1]),'final_anchor':reference[0][-1],\n 'median_seconds':by_mode,'median_paired_speedup_vs_mr':{'candidate_prime':median(p['prime_over_mr'] for p in pairs),'segmented':median(p['segmented_over_mr'] for p in pairs)},\n 'mr_wins_vs_prime':sum(p['prime_over_mr']>1 for p in pairs),'mr_wins_vs_segmented':sum(p['segmented_over_mr']>1 for p in pairs),\n 'source_sha256':{str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (Path('candidate_work/flash_candidates.py'),Path('candidate_work/candidate_sieves.py'))},\n 'observations_raw':rows,'pairs':pairs}\nprint(json.dumps(result,ensure_ascii=False,indent=2))"
+  },
+  "embedded_source_sha256": {
+    "candidate_work/flash_candidates.py": "99badc4429ab044dc97014d5952fc1b04b9f1e5d6ebfbb78573ef164d85a949e",
+    "candidate_work/candidate_sieves.py": "f967ee5fe5186db80e270eb2717dd712d19b3d563429cf4e9797e8ae96fa4615",
+    "strong_baseline_probe.py": "2f93a4680ddffd718ce46e801ed31128b674992a0fe846c080027c9203d7a91b"
+  }
+}

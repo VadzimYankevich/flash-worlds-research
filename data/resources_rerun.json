@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-10T19:21:34.595062+00:00",
+  "observed_resources": {
+    "python_version": "3.13.13",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "cpu": {
+      "model_names": [],
+      "model_source": "/proc/cpuinfo",
+      "os_cpu_count": 12,
+      "affinity_cpu_ids": null,
+      "affinity_cpu_count": null
+    },
+    "cgroup": {
+      "path": "\\sys\\fs\\cgroup",
+      "membership": null,
+      "raw": {
+        "cpu.max": null,
+        "memory.max": null,
+        "memory.current": null,
+        "memory.swap.max": null,
+        "memory.swap.current": null
+      },
+      "cpu_quota_us": null,
+      "cpu_period_us": null,
+      "cpu_quota_equivalent_cpus": null,
+      "memory_limit_bytes": null,
+      "memory_current_bytes": null,
+      "memory_swap_limit_bytes": null,
+      "memory_swap_current_bytes": null
+    },
+    "swap": {
+      "proc_swaps_rows": null,
+      "proc_meminfo_swap_total_kib": null
+    },
+    "gpu_device_exposure": {
+      "paths": [],
+      "device_paths_found": false
+    }
+  },
+  "computed_exact": {
+    "exponent": 136279841,
+    "P": "2^136279841-1",
+    "R": "3P+4=3*2^136279841+1",
+    "P_binary_digits": 136279841,
+    "P_packed_binary_payload_bytes": 17034981,
+    "P_packed_binary_payload_MiB": "16.24582386016845703125",
+    "P_integer_constructed": false
+  },
+  "scale_estimates": {
+    "decimal_precision_digits": 50,
+    "model": "Prime number theorem: pi(x) ~ x/ln(x), x=sqrt(R).",
+    "classification": "Asymptotic scale estimates, not measurements or rigorous lower bounds.",
+    "approximation": "log10(P) approximated by E*log10(2), log10(R) by E*log10(2)+log10(3); the +/-1 terms are neglected.",
+    "log10_P_approx": "41024319.945318046710718297588569648493577660903465",
+    "log10_R_approx": "41024320.422439301430380734883597551748692970103594",
+    "log10_sqrt_R_approx": "20512160.211219650715190367441798775874346485051797",
+    "log10_full_root_prime_basis_count_approx": "20512152.536992562085695835746246372863400243381600",
+    "full_root_prime_basis_count_scientific_approx": "3.44344033e+20512152",
+    "hypothetical_full_scan": {
+      "classification": "Optimistic toy scenario for enumerating every member of the full basis; not a benchmark and not a limit for other algorithms.",
+      "checks_per_second_assumed": 1000000000000,
+      "seconds_per_year_assumed": "31557600.00",
+      "cost_model": "One check per basis prime; generating, storing and accessing the basis are assigned zero cost.",
+      "formula": "log10(years) = log10(estimated basis count) - 12 - log10(seconds per year)",
+      "log10_years_approx": "20512133.037888595000468168461713011233706202433160",
+      "years_scientific_approx": "1.09116040e+20512133"
+    }
+  },
+  "interpretation": [
+    "Visible logical CPUs, the affinity set and the cgroup CPU quota are different quantities.",
+    "The cgroup memory limit is the relevant local limit; host physical RAM is not substituted for it.",
+    "memory.swap.max='max' means no limit in the observed cgroup file, not that swap is available; actual swap observations are reported separately.",
+    "Absence of exposed GPU device paths says nothing about GPUs elsewhere on the host or remote resources.",
+    "The packed P payload omits Python object overhead and arithmetic work buffers.",
+    "The scale estimate concerns the current complete-root-basis approach, not every possible exact shadow method or primality algorithm.",
+    "The bounded record experiment leaves 3P-82 unresolved; no new prime is established."
+  ]
+}

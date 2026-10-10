@@ -1,0 +1,1430 @@
+{
+  "status": "PASS",
+  "contract": "maximum_and_closed_suffix_only",
+  "completed_flashes": 28,
+  "anchors": [
+    3,
+    7,
+    23,
+    73,
+    223,
+    673,
+    2017,
+    6053,
+    18149,
+    54449,
+    163351,
+    490057,
+    1470173,
+    4410517,
+    13231553,
+    39694661,
+    119083957,
+    357251863,
+    1071755593,
+    3215266771,
+    9645800317,
+    28937400953,
+    86812202803,
+    260436608389,
+    781309825171,
+    2343929475493,
+    7031788426469,
+    21095365279409,
+    63286095838211
+  ],
+  "windows": [
+    {
+      "B": 3,
+      "L": 5,
+      "R": 9,
+      "flash_index": 1,
+      "address": 7,
+      "closed_suffix": {
+        "L": 9,
+        "R": 9,
+        "world_B": 3,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 7,
+      "L": 11,
+      "R": 25,
+      "flash_index": 2,
+      "address": 23,
+      "closed_suffix": {
+        "L": 25,
+        "R": 25,
+        "world_B": 7,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 23,
+      "L": 45,
+      "R": 73,
+      "flash_index": 3,
+      "address": 73,
+      "closed_suffix": {
+        "L": 75,
+        "R": 73,
+        "world_B": 23,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 73,
+      "L": 195,
+      "R": 223,
+      "flash_index": 4,
+      "address": 223,
+      "closed_suffix": {
+        "L": 225,
+        "R": 223,
+        "world_B": 73,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 223,
+      "L": 645,
+      "R": 673,
+      "flash_index": 5,
+      "address": 673,
+      "closed_suffix": {
+        "L": 675,
+        "R": 673,
+        "world_B": 223,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 673,
+      "L": 1995,
+      "R": 2023,
+      "flash_index": 6,
+      "address": 2017,
+      "closed_suffix": {
+        "L": 2019,
+        "R": 2023,
+        "world_B": 673,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 2017,
+      "L": 6027,
+      "R": 6055,
+      "flash_index": 7,
+      "address": 6053,
+      "closed_suffix": {
+        "L": 6055,
+        "R": 6055,
+        "world_B": 2017,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 6053,
+      "L": 18135,
+      "R": 18163,
+      "flash_index": 8,
+      "address": 18149,
+      "closed_suffix": {
+        "L": 18151,
+        "R": 18163,
+        "world_B": 6053,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 18149,
+      "L": 54423,
+      "R": 54451,
+      "flash_index": 9,
+      "address": 54449,
+      "closed_suffix": {
+        "L": 54451,
+        "R": 54451,
+        "world_B": 18149,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 54449,
+      "L": 163323,
+      "R": 163351,
+      "flash_index": 10,
+      "address": 163351,
+      "closed_suffix": {
+        "L": 163353,
+        "R": 163351,
+        "world_B": 54449,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 163351,
+      "L": 490029,
+      "R": 490057,
+      "flash_index": 11,
+      "address": 490057,
+      "closed_suffix": {
+        "L": 490059,
+        "R": 490057,
+        "world_B": 163351,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 490057,
+      "L": 1470147,
+      "R": 1470175,
+      "flash_index": 12,
+      "address": 1470173,
+      "closed_suffix": {
+        "L": 1470175,
+        "R": 1470175,
+        "world_B": 490057,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 1470173,
+      "L": 4410495,
+      "R": 4410523,
+      "flash_index": 13,
+      "address": 4410517,
+      "closed_suffix": {
+        "L": 4410519,
+        "R": 4410523,
+        "world_B": 1470173,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 4410517,
+      "L": 13231527,
+      "R": 13231555,
+      "flash_index": 14,
+      "address": 13231553,
+      "closed_suffix": {
+        "L": 13231555,
+        "R": 13231555,
+        "world_B": 4410517,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 13231553,
+      "L": 39694635,
+      "R": 39694663,
+      "flash_index": 15,
+      "address": 39694661,
+      "closed_suffix": {
+        "L": 39694663,
+        "R": 39694663,
+        "world_B": 13231553,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 39694661,
+      "L": 119083959,
+      "R": 119083987,
+      "flash_index": 16,
+      "address": null,
+      "closed_suffix": {
+        "L": 119083959,
+        "R": 119083987,
+        "world_B": 39694661,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 39694661,
+      "L": 119083929,
+      "R": 119083957,
+      "flash_index": 16,
+      "address": 119083957,
+      "closed_suffix": {
+        "L": 119083959,
+        "R": 119083957,
+        "world_B": 39694661,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 119083957,
+      "L": 357251847,
+      "R": 357251875,
+      "flash_index": 17,
+      "address": 357251863,
+      "closed_suffix": {
+        "L": 357251865,
+        "R": 357251875,
+        "world_B": 119083957,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 357251863,
+      "L": 1071755565,
+      "R": 1071755593,
+      "flash_index": 18,
+      "address": 1071755593,
+      "closed_suffix": {
+        "L": 1071755595,
+        "R": 1071755593,
+        "world_B": 357251863,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 1071755593,
+      "L": 3215266755,
+      "R": 3215266783,
+      "flash_index": 19,
+      "address": 3215266771,
+      "closed_suffix": {
+        "L": 3215266773,
+        "R": 3215266783,
+        "world_B": 1071755593,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 3215266771,
+      "L": 9645800289,
+      "R": 9645800317,
+      "flash_index": 20,
+      "address": 9645800317,
+      "closed_suffix": {
+        "L": 9645800319,
+        "R": 9645800317,
+        "world_B": 3215266771,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 9645800317,
+      "L": 28937400927,
+      "R": 28937400955,
+      "flash_index": 21,
+      "address": 28937400953,
+      "closed_suffix": {
+        "L": 28937400955,
+        "R": 28937400955,
+        "world_B": 9645800317,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 28937400953,
+      "L": 86812202835,
+      "R": 86812202863,
+      "flash_index": 22,
+      "address": null,
+      "closed_suffix": {
+        "L": 86812202835,
+        "R": 86812202863,
+        "world_B": 28937400953,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 28937400953,
+      "L": 86812202805,
+      "R": 86812202833,
+      "flash_index": 22,
+      "address": null,
+      "closed_suffix": {
+        "L": 86812202805,
+        "R": 86812202833,
+        "world_B": 28937400953,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 28937400953,
+      "L": 86812202775,
+      "R": 86812202803,
+      "flash_index": 22,
+      "address": 86812202803,
+      "closed_suffix": {
+        "L": 86812202805,
+        "R": 86812202803,
+        "world_B": 28937400953,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 86812202803,
+      "L": 260436608385,
+      "R": 260436608413,
+      "flash_index": 23,
+      "address": 260436608389,
+      "closed_suffix": {
+        "L": 260436608391,
+        "R": 260436608413,
+        "world_B": 86812202803,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 260436608389,
+      "L": 781309825143,
+      "R": 781309825171,
+      "flash_index": 24,
+      "address": 781309825171,
+      "closed_suffix": {
+        "L": 781309825173,
+        "R": 781309825171,
+        "world_B": 260436608389,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 781309825171,
+      "L": 2343929475489,
+      "R": 2343929475517,
+      "flash_index": 25,
+      "address": 2343929475493,
+      "closed_suffix": {
+        "L": 2343929475495,
+        "R": 2343929475517,
+        "world_B": 781309825171,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 2343929475493,
+      "L": 7031788426455,
+      "R": 7031788426483,
+      "flash_index": 26,
+      "address": 7031788426469,
+      "closed_suffix": {
+        "L": 7031788426471,
+        "R": 7031788426483,
+        "world_B": 2343929475493,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 7031788426469,
+      "L": 21095365279383,
+      "R": 21095365279411,
+      "flash_index": 27,
+      "address": 21095365279409,
+      "closed_suffix": {
+        "L": 21095365279411,
+        "R": 21095365279411,
+        "world_B": 7031788426469,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    },
+    {
+      "B": 21095365279409,
+      "L": 63286095838203,
+      "R": 63286095838231,
+      "flash_index": 28,
+      "address": 63286095838211,
+      "closed_suffix": {
+        "L": 63286095838213,
+        "R": 63286095838231,
+        "world_B": 21095365279409,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "B": 3,
+      "R": 9,
+      "last_hole": 7,
+      "flash_index": 1,
+      "search_lower_bound": 5,
+      "previous_closed_R": null,
+      "window_indices": [
+        0
+      ],
+      "closed_suffix": {
+        "L": 9,
+        "R": 9,
+        "world_B": 3,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 9,
+            "R": 9,
+            "world_B": 3,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 7,
+      "R": 25,
+      "last_hole": 23,
+      "flash_index": 2,
+      "search_lower_bound": 11,
+      "previous_closed_R": 9,
+      "window_indices": [
+        1
+      ],
+      "closed_suffix": {
+        "L": 25,
+        "R": 25,
+        "world_B": 7,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 25,
+            "R": 25,
+            "world_B": 7,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 23,
+      "R": 73,
+      "last_hole": 73,
+      "flash_index": 3,
+      "search_lower_bound": 27,
+      "previous_closed_R": 25,
+      "window_indices": [
+        2
+      ],
+      "closed_suffix": {
+        "L": 75,
+        "R": 73,
+        "world_B": 23,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 75,
+            "R": 73,
+            "world_B": 23,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 73,
+      "R": 223,
+      "last_hole": 223,
+      "flash_index": 4,
+      "search_lower_bound": 75,
+      "previous_closed_R": 73,
+      "window_indices": [
+        3
+      ],
+      "closed_suffix": {
+        "L": 225,
+        "R": 223,
+        "world_B": 73,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 225,
+            "R": 223,
+            "world_B": 73,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 223,
+      "R": 673,
+      "last_hole": 673,
+      "flash_index": 5,
+      "search_lower_bound": 225,
+      "previous_closed_R": 223,
+      "window_indices": [
+        4
+      ],
+      "closed_suffix": {
+        "L": 675,
+        "R": 673,
+        "world_B": 223,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 675,
+            "R": 673,
+            "world_B": 223,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 673,
+      "R": 2023,
+      "last_hole": 2017,
+      "flash_index": 6,
+      "search_lower_bound": 675,
+      "previous_closed_R": 673,
+      "window_indices": [
+        5
+      ],
+      "closed_suffix": {
+        "L": 2019,
+        "R": 2023,
+        "world_B": 673,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 2019,
+            "R": 2023,
+            "world_B": 673,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 2017,
+      "R": 6055,
+      "last_hole": 6053,
+      "flash_index": 7,
+      "search_lower_bound": 2025,
+      "previous_closed_R": 2023,
+      "window_indices": [
+        6
+      ],
+      "closed_suffix": {
+        "L": 6055,
+        "R": 6055,
+        "world_B": 2017,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 6055,
+            "R": 6055,
+            "world_B": 2017,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 6053,
+      "R": 18163,
+      "last_hole": 18149,
+      "flash_index": 8,
+      "search_lower_bound": 6057,
+      "previous_closed_R": 6055,
+      "window_indices": [
+        7
+      ],
+      "closed_suffix": {
+        "L": 18151,
+        "R": 18163,
+        "world_B": 6053,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 18151,
+            "R": 18163,
+            "world_B": 6053,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 18149,
+      "R": 54451,
+      "last_hole": 54449,
+      "flash_index": 9,
+      "search_lower_bound": 18165,
+      "previous_closed_R": 18163,
+      "window_indices": [
+        8
+      ],
+      "closed_suffix": {
+        "L": 54451,
+        "R": 54451,
+        "world_B": 18149,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 54451,
+            "R": 54451,
+            "world_B": 18149,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 54449,
+      "R": 163351,
+      "last_hole": 163351,
+      "flash_index": 10,
+      "search_lower_bound": 54453,
+      "previous_closed_R": 54451,
+      "window_indices": [
+        9
+      ],
+      "closed_suffix": {
+        "L": 163353,
+        "R": 163351,
+        "world_B": 54449,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 163353,
+            "R": 163351,
+            "world_B": 54449,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 163351,
+      "R": 490057,
+      "last_hole": 490057,
+      "flash_index": 11,
+      "search_lower_bound": 163353,
+      "previous_closed_R": 163351,
+      "window_indices": [
+        10
+      ],
+      "closed_suffix": {
+        "L": 490059,
+        "R": 490057,
+        "world_B": 163351,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 490059,
+            "R": 490057,
+            "world_B": 163351,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 490057,
+      "R": 1470175,
+      "last_hole": 1470173,
+      "flash_index": 12,
+      "search_lower_bound": 490059,
+      "previous_closed_R": 490057,
+      "window_indices": [
+        11
+      ],
+      "closed_suffix": {
+        "L": 1470175,
+        "R": 1470175,
+        "world_B": 490057,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 1470175,
+            "R": 1470175,
+            "world_B": 490057,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 1470173,
+      "R": 4410523,
+      "last_hole": 4410517,
+      "flash_index": 13,
+      "search_lower_bound": 1470177,
+      "previous_closed_R": 1470175,
+      "window_indices": [
+        12
+      ],
+      "closed_suffix": {
+        "L": 4410519,
+        "R": 4410523,
+        "world_B": 1470173,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 4410519,
+            "R": 4410523,
+            "world_B": 1470173,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 4410517,
+      "R": 13231555,
+      "last_hole": 13231553,
+      "flash_index": 14,
+      "search_lower_bound": 4410525,
+      "previous_closed_R": 4410523,
+      "window_indices": [
+        13
+      ],
+      "closed_suffix": {
+        "L": 13231555,
+        "R": 13231555,
+        "world_B": 4410517,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 13231555,
+            "R": 13231555,
+            "world_B": 4410517,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 13231553,
+      "R": 39694663,
+      "last_hole": 39694661,
+      "flash_index": 15,
+      "search_lower_bound": 13231557,
+      "previous_closed_R": 13231555,
+      "window_indices": [
+        14
+      ],
+      "closed_suffix": {
+        "L": 39694663,
+        "R": 39694663,
+        "world_B": 13231553,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 39694663,
+            "R": 39694663,
+            "world_B": 13231553,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 39694661,
+      "R": 119083987,
+      "last_hole": 119083957,
+      "flash_index": 16,
+      "search_lower_bound": 39694665,
+      "previous_closed_R": 39694663,
+      "window_indices": [
+        15,
+        16
+      ],
+      "closed_suffix": {
+        "L": 119083959,
+        "R": 119083987,
+        "world_B": 39694661,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 119083959,
+            "R": 119083957,
+            "world_B": 39694661,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          },
+          {
+            "L": 119083959,
+            "R": 119083987,
+            "world_B": 39694661,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 119083957,
+      "R": 357251875,
+      "last_hole": 357251863,
+      "flash_index": 17,
+      "search_lower_bound": 119083989,
+      "previous_closed_R": 119083987,
+      "window_indices": [
+        17
+      ],
+      "closed_suffix": {
+        "L": 357251865,
+        "R": 357251875,
+        "world_B": 119083957,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 357251865,
+            "R": 357251875,
+            "world_B": 119083957,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 357251863,
+      "R": 1071755593,
+      "last_hole": 1071755593,
+      "flash_index": 18,
+      "search_lower_bound": 357251877,
+      "previous_closed_R": 357251875,
+      "window_indices": [
+        18
+      ],
+      "closed_suffix": {
+        "L": 1071755595,
+        "R": 1071755593,
+        "world_B": 357251863,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 1071755595,
+            "R": 1071755593,
+            "world_B": 357251863,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 1071755593,
+      "R": 3215266783,
+      "last_hole": 3215266771,
+      "flash_index": 19,
+      "search_lower_bound": 1071755595,
+      "previous_closed_R": 1071755593,
+      "window_indices": [
+        19
+      ],
+      "closed_suffix": {
+        "L": 3215266773,
+        "R": 3215266783,
+        "world_B": 1071755593,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 3215266773,
+            "R": 3215266783,
+            "world_B": 1071755593,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 3215266771,
+      "R": 9645800317,
+      "last_hole": 9645800317,
+      "flash_index": 20,
+      "search_lower_bound": 3215266785,
+      "previous_closed_R": 3215266783,
+      "window_indices": [
+        20
+      ],
+      "closed_suffix": {
+        "L": 9645800319,
+        "R": 9645800317,
+        "world_B": 3215266771,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 9645800319,
+            "R": 9645800317,
+            "world_B": 3215266771,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 9645800317,
+      "R": 28937400955,
+      "last_hole": 28937400953,
+      "flash_index": 21,
+      "search_lower_bound": 9645800319,
+      "previous_closed_R": 9645800317,
+      "window_indices": [
+        21
+      ],
+      "closed_suffix": {
+        "L": 28937400955,
+        "R": 28937400955,
+        "world_B": 9645800317,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 28937400955,
+            "R": 28937400955,
+            "world_B": 9645800317,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 28937400953,
+      "R": 86812202863,
+      "last_hole": 86812202803,
+      "flash_index": 22,
+      "search_lower_bound": 28937400957,
+      "previous_closed_R": 28937400955,
+      "window_indices": [
+        22,
+        23,
+        24
+      ],
+      "closed_suffix": {
+        "L": 86812202805,
+        "R": 86812202863,
+        "world_B": 28937400953,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 86812202805,
+            "R": 86812202803,
+            "world_B": 28937400953,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          },
+          {
+            "L": 86812202805,
+            "R": 86812202833,
+            "world_B": 28937400953,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          },
+          {
+            "L": 86812202835,
+            "R": 86812202863,
+            "world_B": 28937400953,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 86812202803,
+      "R": 260436608413,
+      "last_hole": 260436608389,
+      "flash_index": 23,
+      "search_lower_bound": 86812202865,
+      "previous_closed_R": 86812202863,
+      "window_indices": [
+        25
+      ],
+      "closed_suffix": {
+        "L": 260436608391,
+        "R": 260436608413,
+        "world_B": 86812202803,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 260436608391,
+            "R": 260436608413,
+            "world_B": 86812202803,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 260436608389,
+      "R": 781309825171,
+      "last_hole": 781309825171,
+      "flash_index": 24,
+      "search_lower_bound": 260436608415,
+      "previous_closed_R": 260436608413,
+      "window_indices": [
+        26
+      ],
+      "closed_suffix": {
+        "L": 781309825173,
+        "R": 781309825171,
+        "world_B": 260436608389,
+        "exact_hole_mass": 0,
+        "empty_interval": true,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 781309825173,
+            "R": 781309825171,
+            "world_B": 260436608389,
+            "exact_hole_mass": 0,
+            "empty_interval": true,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 781309825171,
+      "R": 2343929475517,
+      "last_hole": 2343929475493,
+      "flash_index": 25,
+      "search_lower_bound": 781309825173,
+      "previous_closed_R": 781309825171,
+      "window_indices": [
+        27
+      ],
+      "closed_suffix": {
+        "L": 2343929475495,
+        "R": 2343929475517,
+        "world_B": 781309825171,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 2343929475495,
+            "R": 2343929475517,
+            "world_B": 781309825171,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 2343929475493,
+      "R": 7031788426483,
+      "last_hole": 7031788426469,
+      "flash_index": 26,
+      "search_lower_bound": 2343929475519,
+      "previous_closed_R": 2343929475517,
+      "window_indices": [
+        28
+      ],
+      "closed_suffix": {
+        "L": 7031788426471,
+        "R": 7031788426483,
+        "world_B": 2343929475493,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 7031788426471,
+            "R": 7031788426483,
+            "world_B": 2343929475493,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 7031788426469,
+      "R": 21095365279411,
+      "last_hole": 21095365279409,
+      "flash_index": 27,
+      "search_lower_bound": 7031788426485,
+      "previous_closed_R": 7031788426483,
+      "window_indices": [
+        29
+      ],
+      "closed_suffix": {
+        "L": 21095365279411,
+        "R": 21095365279411,
+        "world_B": 7031788426469,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 21095365279411,
+            "R": 21095365279411,
+            "world_B": 7031788426469,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    },
+    {
+      "B": 21095365279409,
+      "R": 63286095838231,
+      "last_hole": 63286095838211,
+      "flash_index": 28,
+      "search_lower_bound": 21095365279413,
+      "previous_closed_R": 21095365279411,
+      "window_indices": [
+        30
+      ],
+      "closed_suffix": {
+        "L": 63286095838213,
+        "R": 63286095838231,
+        "world_B": 21095365279409,
+        "exact_hole_mass": 0,
+        "empty_interval": false,
+        "witness": "retained candidate or sieve suffix certificates",
+        "parts": [
+          {
+            "L": 63286095838213,
+            "R": 63286095838231,
+            "world_B": 21095365279409,
+            "exact_hole_mass": 0,
+            "empty_interval": false,
+            "witness": "complete segmented odd-prime bitmap in the finite-world frontier"
+          }
+        ]
+      }
+    }
+  ],
+  "final_state": {
+    "B": 63286095838211,
+    "previous_R": 63286095838231
+  },
+  "direct_facts": {
+    "retained_answers": 31,
+    "exact_answer_cache_hits": 0
+  },
+  "full_window_count_required": false,
+  "independent_validator_used_by_working_algorithm": false,
+  "mode": "segmented",
+  "elapsed_seconds": 0.7037619099937729,
+  "backend": {
+    "engine": "candidate_segmented_odd",
+    "queries": 31,
+    "queried_odd_cells": 446,
+    "segment_builds": 29,
+    "prefix_queries": 2,
+    "full_window_hole_counts": 0,
+    "all_window_addresses_materialized": 0,
+    "peak_sieve_payload_bytes": 3977642,
+    "segment_period_checks": 1399021,
+    "segment_composite_slot_writes": 728,
+    "segment_marking_progressions": 510,
+    "base": {
+      "bitmap_certified_through": 7955255,
+      "prime_list_certified_through": 7955255,
+      "retained_base_prime_addresses": 536968,
+      "retained_sieve_payload_bytes": 3977627,
+      "base_sieve_builds": 25,
+      "prime_materializations": 27,
+      "materialization_strategy": "find",
+      "diagnostics_enabled": true,
+      "base_flag_positions_inspected": null,
+      "base_flag_positions_considered": 3977626,
+      "base_flag_find_calls": 536994,
+      "base_period_checks": 1957,
+      "base_composite_slot_writes": 7039941,
+      "base_marking_progressions": 1957,
+      "prime_list_copies": 0
+    }
+  },
+  "validation": {
+    "status": "PASS",
+    "contract": "rightmost hole and exact zero-hole suffix; full-window count optional",
+    "oracle_role": "independent validation only; never a working search input",
+    "checked_windows": 31,
+    "windows_without_holes": 3,
+    "full_window_count_claims_checked": 0,
+    "factor_witnesses_checked": 0,
+    "maximum_certificates_checked": 0,
+    "trial_limit_claims_checked": 0,
+    "execution_trace_attested": false,
+    "oracle": {
+      "method": "deterministic Miller-Rabin; first 12 prime bases",
+      "bases": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37
+      ],
+      "proven_domain": "n < 2**64",
+      "source": "https://arxiv.org/pdf/1509.00864 (Sorenson & Webster, Theorem 1.1)",
+      "unique_primality_tests": 446,
+      "cache_hits": 360,
+      "checked_intervals": 93,
+      "requested_odd_cells": 806,
+      "maximum_tested": 63286095838231,
+      "allocated_prefix_bitmap": false,
+      "complete_prime_prefix_built": false,
+      "max_interval_odd": 4096,
+      "max_unique_tests": 100000
+    },
+    "checked_flashes": 28,
+    "checked_anchor_count": 29,
+    "final_anchor": 63286095838211,
+    "maximum_queried_coordinate": 63286095838231
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-10-10T19:05:51.977442+00:00",
+  "procedure": "Extract ZIP into a fresh directory; run python src/run_all.py; compare mathematical evidence with supplied original ripple protocols.",
+  "benchmark_rerun_during_release_check": false,
+  "standard_library_stage_count": 7,
+  "elapsed_seconds": 5.039912870997796,
+  "ripple_certificate_counts_and_rows_match": true,
+  "ripple_depth_worlds_and_residuals_match": true,
+  "stdout": "Running: canonical evidence and record\nRunning: mathematical identities\nRunning: independent teaching implementation\nRunning: ripple depth and residual layers\nRunning: absorption and return of axis 1013\nRunning: record-window old-shadow absorption certificate\nRunning: resource snapshot and scale estimates\nPASS: all requested stages completed. Report: data/package_verification.json",
+  "pdf_layout": {
+    "pages": 7,
+    "xelatex_strict_build": "PASS",
+    "all_pages_visually_reviewed": true
+  },
+  "last_documentation_update_utc": "2026-10-10T19:12:10.680066+00:00",
+  "addition": "docs/FAST_ENGINE.md plus two separately validated instrumented engine runs; historical timings and numerical source files unchanged.",
+  "numerical_source_unchanged_since_extracted_archive_check": true,
+  "additional_cli_diagnostics": {
+    "fast_engine_diagnostic": {
+      "status": "PASS",
+      "checked_windows": 31,
+      "final_anchor": 63286095838211,
+      "diagnostics_enabled": true,
+      "included_in_paired_timings": false
+    },
+    "segmented_engine_diagnostic": {
+      "status": "PASS",
+      "checked_windows": 31,
+      "final_anchor": 63286095838211,
+      "diagnostics_enabled": true,
+      "included_in_paired_timings": false
+    }
+  }
+}

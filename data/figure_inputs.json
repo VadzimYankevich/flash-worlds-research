@@ -1,0 +1,1213 @@
+{
+  "sources": {
+    "data/benchmark_original.json": "d93dc0b160b5cccd9cdf5556bf6fac43f69ee261194ade9c0a72d1a3c72b6c97",
+    "data/record_original.json": "20cb2be3e74dd2ea79f729eae5e2943633f84e4766b609880a8c64bbc29c0cba"
+  },
+  "prime_space": {
+    "model": "H_3(120)={2^a*3^b*5^c<=120: a,b,c nonnegative integers}",
+    "bound": 120,
+    "slice_c": 1,
+    "projected_bound": 24,
+    "one_included": true,
+    "points": [
+      {
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "n": 1
+      },
+      {
+        "a": 0,
+        "b": 0,
+        "c": 1,
+        "n": 5
+      },
+      {
+        "a": 0,
+        "b": 0,
+        "c": 2,
+        "n": 25
+      },
+      {
+        "a": 0,
+        "b": 1,
+        "c": 0,
+        "n": 3
+      },
+      {
+        "a": 0,
+        "b": 1,
+        "c": 1,
+        "n": 15
+      },
+      {
+        "a": 0,
+        "b": 1,
+        "c": 2,
+        "n": 75
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "c": 0,
+        "n": 9
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "c": 1,
+        "n": 45
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "c": 0,
+        "n": 27
+      },
+      {
+        "a": 0,
+        "b": 4,
+        "c": 0,
+        "n": 81
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "n": 2
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "c": 1,
+        "n": 10
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "c": 2,
+        "n": 50
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "c": 0,
+        "n": 6
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "n": 30
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "c": 0,
+        "n": 18
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "c": 1,
+        "n": 90
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 0,
+        "n": 54
+      },
+      {
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "n": 4
+      },
+      {
+        "a": 2,
+        "b": 0,
+        "c": 1,
+        "n": 20
+      },
+      {
+        "a": 2,
+        "b": 0,
+        "c": 2,
+        "n": 100
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "c": 0,
+        "n": 12
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "c": 1,
+        "n": 60
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "c": 0,
+        "n": 36
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 0,
+        "n": 108
+      },
+      {
+        "a": 3,
+        "b": 0,
+        "c": 0,
+        "n": 8
+      },
+      {
+        "a": 3,
+        "b": 0,
+        "c": 1,
+        "n": 40
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "c": 0,
+        "n": 24
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "c": 1,
+        "n": 120
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "c": 0,
+        "n": 72
+      },
+      {
+        "a": 4,
+        "b": 0,
+        "c": 0,
+        "n": 16
+      },
+      {
+        "a": 4,
+        "b": 0,
+        "c": 1,
+        "n": 80
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "c": 0,
+        "n": 48
+      },
+      {
+        "a": 5,
+        "b": 0,
+        "c": 0,
+        "n": 32
+      },
+      {
+        "a": 5,
+        "b": 1,
+        "c": 0,
+        "n": 96
+      },
+      {
+        "a": 6,
+        "b": 0,
+        "c": 0,
+        "n": 64
+      }
+    ],
+    "projected_slice": [
+      {
+        "a": 0,
+        "b": 0,
+        "n": 1,
+        "original_n": 5
+      },
+      {
+        "a": 0,
+        "b": 1,
+        "n": 3,
+        "original_n": 15
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "n": 9,
+        "original_n": 45
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "n": 2,
+        "original_n": 10
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "n": 6,
+        "original_n": 30
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "n": 18,
+        "original_n": 90
+      },
+      {
+        "a": 2,
+        "b": 0,
+        "n": 4,
+        "original_n": 20
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "n": 12,
+        "original_n": 60
+      },
+      {
+        "a": 3,
+        "b": 0,
+        "n": 8,
+        "original_n": 40
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "n": 24,
+        "original_n": 120
+      },
+      {
+        "a": 4,
+        "b": 0,
+        "n": 16,
+        "original_n": 80
+      }
+    ],
+    "interpretation": "separate exponent-coordinate model, not a proof of speedup"
+  },
+  "benchmark": {
+    "modes": [
+      "candidate_prime",
+      "segmented",
+      "mr12_candidates"
+    ],
+    "flashes": 28,
+    "distinct_windows": 31,
+    "rounds": 12,
+    "observations": [
+      {
+        "round": 1,
+        "position": 1,
+        "mode": "candidate_prime",
+        "seconds": 0.472012441,
+        "milliseconds": 472.012441
+      },
+      {
+        "round": 1,
+        "position": 2,
+        "mode": "segmented",
+        "seconds": 0.664307941,
+        "milliseconds": 664.307941
+      },
+      {
+        "round": 1,
+        "position": 3,
+        "mode": "mr12_candidates",
+        "seconds": 0.002022882,
+        "milliseconds": 2.022882
+      },
+      {
+        "round": 2,
+        "position": 1,
+        "mode": "candidate_prime",
+        "seconds": 0.231109915,
+        "milliseconds": 231.109915
+      },
+      {
+        "round": 2,
+        "position": 2,
+        "mode": "mr12_candidates",
+        "seconds": 0.001625735,
+        "milliseconds": 1.625735
+      },
+      {
+        "round": 2,
+        "position": 3,
+        "mode": "segmented",
+        "seconds": 0.690099754,
+        "milliseconds": 690.099754
+      },
+      {
+        "round": 3,
+        "position": 1,
+        "mode": "segmented",
+        "seconds": 0.694186065,
+        "milliseconds": 694.186065
+      },
+      {
+        "round": 3,
+        "position": 2,
+        "mode": "candidate_prime",
+        "seconds": 0.257970804,
+        "milliseconds": 257.970804
+      },
+      {
+        "round": 3,
+        "position": 3,
+        "mode": "mr12_candidates",
+        "seconds": 0.002457661,
+        "milliseconds": 2.457661
+      },
+      {
+        "round": 4,
+        "position": 1,
+        "mode": "segmented",
+        "seconds": 0.691962176,
+        "milliseconds": 691.962176
+      },
+      {
+        "round": 4,
+        "position": 2,
+        "mode": "mr12_candidates",
+        "seconds": 0.001742349,
+        "milliseconds": 1.742349
+      },
+      {
+        "round": 4,
+        "position": 3,
+        "mode": "candidate_prime",
+        "seconds": 0.262502257,
+        "milliseconds": 262.50225700000004
+      },
+      {
+        "round": 5,
+        "position": 1,
+        "mode": "mr12_candidates",
+        "seconds": 0.002054759,
+        "milliseconds": 2.0547590000000002
+      },
+      {
+        "round": 5,
+        "position": 2,
+        "mode": "candidate_prime",
+        "seconds": 0.255913846,
+        "milliseconds": 255.913846
+      },
+      {
+        "round": 5,
+        "position": 3,
+        "mode": "segmented",
+        "seconds": 0.690735068,
+        "milliseconds": 690.735068
+      },
+      {
+        "round": 6,
+        "position": 1,
+        "mode": "mr12_candidates",
+        "seconds": 0.002202612,
+        "milliseconds": 2.2026120000000002
+      },
+      {
+        "round": 6,
+        "position": 2,
+        "mode": "segmented",
+        "seconds": 0.762797011,
+        "milliseconds": 762.797011
+      },
+      {
+        "round": 6,
+        "position": 3,
+        "mode": "candidate_prime",
+        "seconds": 0.264510422,
+        "milliseconds": 264.510422
+      },
+      {
+        "round": 7,
+        "position": 1,
+        "mode": "candidate_prime",
+        "seconds": 0.34924816,
+        "milliseconds": 349.24816
+      },
+      {
+        "round": 7,
+        "position": 2,
+        "mode": "segmented",
+        "seconds": 0.744839036,
+        "milliseconds": 744.839036
+      },
+      {
+        "round": 7,
+        "position": 3,
+        "mode": "mr12_candidates",
+        "seconds": 0.001613833,
+        "milliseconds": 1.613833
+      },
+      {
+        "round": 8,
+        "position": 1,
+        "mode": "candidate_prime",
+        "seconds": 0.254371487,
+        "milliseconds": 254.371487
+      },
+      {
+        "round": 8,
+        "position": 2,
+        "mode": "mr12_candidates",
+        "seconds": 0.002047345,
+        "milliseconds": 2.047345
+      },
+      {
+        "round": 8,
+        "position": 3,
+        "mode": "segmented",
+        "seconds": 0.73221297,
+        "milliseconds": 732.2129699999999
+      },
+      {
+        "round": 9,
+        "position": 1,
+        "mode": "segmented",
+        "seconds": 0.673573583,
+        "milliseconds": 673.573583
+      },
+      {
+        "round": 9,
+        "position": 2,
+        "mode": "candidate_prime",
+        "seconds": 0.23019466,
+        "milliseconds": 230.19466
+      },
+      {
+        "round": 9,
+        "position": 3,
+        "mode": "mr12_candidates",
+        "seconds": 0.001159149,
+        "milliseconds": 1.159149
+      },
+      {
+        "round": 10,
+        "position": 1,
+        "mode": "segmented",
+        "seconds": 0.813714853,
+        "milliseconds": 813.7148530000001
+      },
+      {
+        "round": 10,
+        "position": 2,
+        "mode": "mr12_candidates",
+        "seconds": 0.00192625,
+        "milliseconds": 1.92625
+      },
+      {
+        "round": 10,
+        "position": 3,
+        "mode": "candidate_prime",
+        "seconds": 0.282824226,
+        "milliseconds": 282.824226
+      },
+      {
+        "round": 11,
+        "position": 1,
+        "mode": "mr12_candidates",
+        "seconds": 0.002423212,
+        "milliseconds": 2.423212
+      },
+      {
+        "round": 11,
+        "position": 2,
+        "mode": "candidate_prime",
+        "seconds": 0.299509514,
+        "milliseconds": 299.50951399999997
+      },
+      {
+        "round": 11,
+        "position": 3,
+        "mode": "segmented",
+        "seconds": 0.974972581,
+        "milliseconds": 974.972581
+      },
+      {
+        "round": 12,
+        "position": 1,
+        "mode": "mr12_candidates",
+        "seconds": 0.003272189,
+        "milliseconds": 3.272189
+      },
+      {
+        "round": 12,
+        "position": 2,
+        "mode": "segmented",
+        "seconds": 0.748828191,
+        "milliseconds": 748.828191
+      },
+      {
+        "round": 12,
+        "position": 3,
+        "mode": "candidate_prime",
+        "seconds": 0.798272006,
+        "milliseconds": 798.272006
+      }
+    ],
+    "median_milliseconds": {
+      "candidate_prime": 263.5063395,
+      "segmented": 713.1995175,
+      "mr12_candidates": 2.0351135
+    },
+    "original_contract": "same maximum and closed suffix, identical short windows and anchor sequence, optional factor witnesses not required from competitors",
+    "interpretation": "saved Python experiment; MR is deterministic below 2^64"
+  },
+  "record_window": {
+    "P": "2^136279841-1",
+    "exponent": 136279841,
+    "address_formula": "N_j=3P+4-2*j",
+    "small_prime_limit": 1000000,
+    "cells": [
+      {
+        "j": 0,
+        "offset_from_3P": 4,
+        "factor": 53,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 1,
+        "offset_from_3P": 2,
+        "factor": 5,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 2,
+        "offset_from_3P": 0,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 3,
+        "offset_from_3P": -2,
+        "factor": 7,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 4,
+        "offset_from_3P": -4,
+        "factor": 89,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 5,
+        "offset_from_3P": -6,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 6,
+        "offset_from_3P": -8,
+        "factor": 5,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 7,
+        "offset_from_3P": -10,
+        "factor": 2749,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 8,
+        "offset_from_3P": -12,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 9,
+        "offset_from_3P": -14,
+        "factor": 11,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 10,
+        "offset_from_3P": -16,
+        "factor": 7,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 11,
+        "offset_from_3P": -18,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 12,
+        "offset_from_3P": -20,
+        "factor": 17,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 13,
+        "offset_from_3P": -22,
+        "factor": 139291,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 14,
+        "offset_from_3P": -24,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 15,
+        "offset_from_3P": -26,
+        "factor": 67,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 16,
+        "offset_from_3P": -28,
+        "factor": 5,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 17,
+        "offset_from_3P": -30,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 18,
+        "offset_from_3P": -32,
+        "factor": 293,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 19,
+        "offset_from_3P": -34,
+        "factor": 31,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 20,
+        "offset_from_3P": -36,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 21,
+        "offset_from_3P": -38,
+        "factor": 5,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 22,
+        "offset_from_3P": -40,
+        "factor": 136481,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 23,
+        "offset_from_3P": -42,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 24,
+        "offset_from_3P": -44,
+        "factor": 7,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 25,
+        "offset_from_3P": -46,
+        "factor": 483167,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 26,
+        "offset_from_3P": -48,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 27,
+        "offset_from_3P": -50,
+        "factor": 43,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 28,
+        "offset_from_3P": -52,
+        "factor": 47363,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 29,
+        "offset_from_3P": -54,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 30,
+        "offset_from_3P": -56,
+        "factor": 37,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 31,
+        "offset_from_3P": -58,
+        "factor": 5,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 32,
+        "offset_from_3P": -60,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 33,
+        "offset_from_3P": -62,
+        "factor": 15173,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 34,
+        "offset_from_3P": -64,
+        "factor": 29,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 35,
+        "offset_from_3P": -66,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 36,
+        "offset_from_3P": -68,
+        "factor": 5,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 37,
+        "offset_from_3P": -70,
+        "factor": 23,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 38,
+        "offset_from_3P": -72,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 39,
+        "offset_from_3P": -74,
+        "factor": 19,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 40,
+        "offset_from_3P": -76,
+        "factor": 751,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 41,
+        "offset_from_3P": -78,
+        "factor": 3,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 42,
+        "offset_from_3P": -80,
+        "factor": 11,
+        "status": "COMPOSITE"
+      },
+      {
+        "j": 43,
+        "offset_from_3P": -82,
+        "factor": null,
+        "status": "UNKNOWN"
+      }
+    ],
+    "closed_top_positions": 43,
+    "candidate": "3P-82",
+    "candidate_status": "UNKNOWN",
+    "video_stages": [
+      {
+        "small_prime_limit": 0,
+        "closed_indices": [],
+        "unknown_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "duration_seconds": 2.5
+      },
+      {
+        "small_prime_limit": 3,
+        "closed_indices": [
+          2,
+          5,
+          8,
+          11,
+          14,
+          17,
+          20,
+          23,
+          26,
+          29,
+          32,
+          35,
+          38,
+          41
+        ],
+        "unknown_indices": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          18,
+          19,
+          21,
+          22,
+          24,
+          25,
+          27,
+          28,
+          30,
+          31,
+          33,
+          34,
+          36,
+          37,
+          39,
+          40,
+          42,
+          43
+        ],
+        "duration_seconds": 2.5
+      },
+      {
+        "small_prime_limit": 5,
+        "closed_indices": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          11,
+          14,
+          16,
+          17,
+          20,
+          21,
+          23,
+          26,
+          29,
+          31,
+          32,
+          35,
+          36,
+          38,
+          41
+        ],
+        "unknown_indices": [
+          0,
+          3,
+          4,
+          7,
+          9,
+          10,
+          12,
+          13,
+          15,
+          18,
+          19,
+          22,
+          24,
+          25,
+          27,
+          28,
+          30,
+          33,
+          34,
+          37,
+          39,
+          40,
+          42,
+          43
+        ],
+        "duration_seconds": 2.5
+      },
+      {
+        "small_prime_limit": 7,
+        "closed_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          14,
+          16,
+          17,
+          20,
+          21,
+          23,
+          24,
+          26,
+          29,
+          31,
+          32,
+          35,
+          36,
+          38,
+          41
+        ],
+        "unknown_indices": [
+          0,
+          4,
+          7,
+          9,
+          12,
+          13,
+          15,
+          18,
+          19,
+          22,
+          25,
+          27,
+          28,
+          30,
+          33,
+          34,
+          37,
+          39,
+          40,
+          42,
+          43
+        ],
+        "duration_seconds": 2.5
+      },
+      {
+        "small_prime_limit": 53,
+        "closed_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42
+        ],
+        "unknown_indices": [
+          4,
+          7,
+          13,
+          15,
+          18,
+          22,
+          25,
+          28,
+          33,
+          40,
+          43
+        ],
+        "duration_seconds": 2.5
+      },
+      {
+        "small_prime_limit": 139291,
+        "closed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "unknown_indices": [
+          25,
+          43
+        ],
+        "duration_seconds": 2.5
+      },
+      {
+        "small_prime_limit": 1000000,
+        "closed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "unknown_indices": [
+          43
+        ],
+        "duration_seconds": 2.5
+      }
+    ],
+    "final_frame_seconds": 3.5,
+    "video_total_seconds": 21.0
+  }
+}

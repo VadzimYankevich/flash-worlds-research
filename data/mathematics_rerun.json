@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "classification": "Exact finite mathematical verification; neither a general proof nor a speed benchmark.",
+  "generated_at_utc": "2026-10-10T19:21:32.492074+00:00",
+  "python": "3.13.13",
+  "source_sha256": "88621412bd2e735b0fa5774d9bddb27712433023ea46097736b9f9aa6f345692",
+  "finite_worlds_and_cuts": {
+    "status": "PASS",
+    "scope": "Every odd B from 3 through max_B; literal S_B versus independent Eratosthenes.",
+    "max_B": 501,
+    "safe_frontier": "G(B)=min(B^2,3B+4)",
+    "window_scope": "Full safe odd interval, final 15 odd addresses, central up-to-15 odd addresses; duplicate windows removed.",
+    "cut_identity": "For c_prime<=c: (c_prime OR u)=(c OR u) iff (c-c_prime)*(1-u)=0.",
+    "boolean_cases": 6,
+    "coverage_sha256": "dc4ea641f514beed2bf26bb40fd06c7abf5c5b59efba75de062c84638d57b7a8",
+    "worlds": 250,
+    "odd_coordinates_compared": 94873,
+    "literal_product_pairs": 2080609,
+    "windows": 742,
+    "nonempty_shadow_traces": 19674,
+    "retained_shadow_traces": 4331,
+    "discarded_redundant_shadow_traces": 15343,
+    "saved_factor_witnesses": 67375,
+    "safe_cut_equalities": 742,
+    "unsafe_cut_counterchecks": 741
+  },
+  "first_private_prime_square": {
+    "status": "PASS",
+    "scope": "Every prime p through the requested world bound; shadows A_q={2q,3q,...}.",
+    "primes": 95,
+    "largest_prime": 499,
+    "earlier_multiples_checked": 21346,
+    "claim_checked": "p^2 is the first address of A_p not covered by smaller-prime shadows."
+  },
+  "factorizations_and_layers": {
+    "status": "PASS",
+    "factorization_scope": "All integers n from 1 through 10000; factors are checked against an independent sieve.",
+    "factorizations": 10000,
+    "geometric_model": "Finite nonnegative exponent vectors over a fixed prime basis; 1 is the all-zero vector.",
+    "bases": [
+      [
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        5,
+        7
+      ],
+      [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ]
+    ],
+    "bounds": [
+      1,
+      2,
+      3,
+      10,
+      31,
+      100,
+      301,
+      1000
+    ],
+    "world_cases": 48,
+    "layer_cases": 134,
+    "projected_points": 1530,
+    "layer_identity": "For last basis prime q and k>=0: {n/q^k: n is in the fixed-basis world up to X, exponent_q(n)=k} equals the smaller-basis world with bound floor(X/q^k).",
+    "interpretation_scope": "Exact illustration of slices and projections; this exponent world is distinct from S_B."
+  },
+  "strong_pseudoprime_2047": {
+    "status": "PASS",
+    "n": 2047,
+    "factorization": [
+      [
+        23,
+        1
+      ],
+      [
+        89,
+        1
+      ]
+    ],
+    "mr_base": 2,
+    "n_minus_one": "2*1023",
+    "mr_residues": [
+      1
+    ],
+    "passes_single_mr_round": true,
+    "exact_composite_certificate": "2047=23*89",
+    "scope": "A single-base strong pseudoprime example; this does not show failure of every multi-base or bounded deterministic Miller-Rabin variant."
+  },
+  "verification_wall_seconds": 0.5339105000020936
+}
