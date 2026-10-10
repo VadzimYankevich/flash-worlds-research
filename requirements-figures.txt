@@ -1,0 +1,4 @@
+# Numerical checks and prime-search programs require only the standard library.
+# Versions used to build the included figures and video frames.
+matplotlib==3.10.8
+Pillow==12.3.0
